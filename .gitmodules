@@ -1,0 +1,3 @@
+[submodule "artwork"]
+	path = artwork
+	url = https://github.com/B00merang-Artwork/Mac-OS-X-Cheetah.git

@@ -1,0 +1,5722 @@
+{
+  "places": {
+    "folder": {
+      "source": "128x128/places/folder.png",
+      "label": "Folder",
+      "aliases": [
+        "folder_open",
+        "inode-directory",
+        "folder-yellow",
+        "folder-default",
+        "folder-root",
+        "folder-system"
+      ]
+    },
+    "user-home": {
+      "source": "128x128/places/user-home.png",
+      "label": "Home",
+      "aliases": [
+        "folder-home",
+        "gnome-fs-home"
+      ]
+    },
+    "user-desktop": {
+      "source": "128x128/places/folder-desktop.png",
+      "label": "Desktop",
+      "aliases": [
+        "folder-desktop",
+        "desktop",
+        "gnome-fs-desktop"
+      ]
+    },
+    "folder-documents": {
+      "source": "128x128/places/folder-documents.png",
+      "label": "Documents",
+      "aliases": [
+        "folder-documents-open"
+      ]
+    },
+    "folder-download": {
+      "source": "128x128/places/folder-download.png",
+      "label": "Downloads",
+      "aliases": [
+        "folder-downloads",
+        "folder-download-open",
+        "folder-downloads-open"
+      ]
+    },
+    "folder-music": {
+      "source": "128x128/places/folder-music.png",
+      "label": "Music",
+      "aliases": [
+        "folder-music-open"
+      ]
+    },
+    "folder-pictures": {
+      "source": "128x128/places/folder-pictures.png",
+      "label": "Pictures",
+      "aliases": [
+        "folder-images",
+        "folder-pictures-open"
+      ]
+    },
+    "folder-videos": {
+      "source": "128x128/places/folder-videos.png",
+      "label": "Movies",
+      "aliases": [
+        "folder-video",
+        "folder-videos-open"
+      ]
+    },
+    "folder-templates": {
+      "source": "128x128/places/folder-templates.png",
+      "label": "Templates",
+      "aliases": [
+        "folder-templates-open"
+      ]
+    },
+    "folder-publicshare": {
+      "source": "128x128/places/folder-publicshare.png",
+      "label": "Public",
+      "aliases": [
+        "folder-public",
+        "folder-publicshare-open"
+      ]
+    },
+    "folder-remote": {
+      "source": "128x128/places/folder-remote.png",
+      "label": "Network folder",
+      "aliases": [
+        "folder-network",
+        "folder-remote-ftp",
+        "folder-remote-smb",
+        "folder-remote-ssh"
+      ]
+    },
+    "user-trash": {
+      "source": "128x128/places/user-trash.png",
+      "label": "Trash (empty)",
+      "aliases": [
+        "user-trash-empty",
+        "trash-empty",
+        "gnome-fs-trash-empty",
+        "gnome-dev-trash-empty"
+      ]
+    },
+    "user-trash-full": {
+      "source": "128x128/places/user-trash-full.png",
+      "label": "Trash (full)",
+      "aliases": [
+        "trash-full",
+        "gnome-fs-trash-full",
+        "gnome-dev-trash-full"
+      ]
+    }
+  },
+  "apps": {
+    "vscode": {
+      "source": "128x128/apps/applications-development.png",
+      "label": "Visual Studio Code / Xcode",
+      "aliases": [
+        "applications-development",
+        "code",
+        "com.microsoft.VSCode",
+        "com.microsoft.VSCode.UrlHandler",
+        "com.visualstudio.code",
+        "redhat-programming",
+        "visual-studio-code",
+        "xfce-devel"
+      ]
+    },
+    "system-file-manager": {
+      "source": "128x128/apps/org.gnome.Nautilus.png",
+      "label": "Files / Finder",
+      "aliases": [
+        "Thunar",
+        "caja",
+        "nautilus",
+        "nemo",
+        "org.gnome.Nautilus",
+        "org.gnome.nautilus",
+        "org.xfce.thunar",
+        "thunar",
+        "xfce-filemanager"
+      ]
+    },
+    "org.gnome.TextEditor": {
+      "source": "128x128/apps/package_editors.png",
+      "label": "Text Editor / TextEdit",
+      "aliases": [
+        "accessories-text-editor",
+        "gedit",
+        "org.gnome.gedit",
+        "package_editors",
+        "text-editor"
+      ]
+    },
+    "org.gnome.Settings": {
+      "source": "128x128/apps/gnome-control-center.png",
+      "label": "System Preferences",
+      "aliases": [
+        "applications-system",
+        "gnome-control-center",
+        "gnome-desktop-config",
+        "gnome-settings",
+        "package_system",
+        "preferences-other",
+        "preferences-system",
+        "redhat-preferences",
+        "redhat-system_settings",
+        "redhat-system_tools",
+        "xfce-system"
+      ]
+    },
+    "org.gnome.Terminal": {
+      "source": "128x128/apps/gnome-terminal.png",
+      "label": "Terminal",
+      "aliases": [
+        "Alacritty",
+        "alacritty",
+        "com.raggesilver.BlackBox",
+        "gnome-eterm",
+        "gnome-terminal",
+        "gnome-xterm",
+        "kgx",
+        "konsole",
+        "org.gnome.Console",
+        "org.gnome.Ptyxis",
+        "org.gnome.Ptyxis.Devel",
+        "org.gnome.Terminal.Preferences",
+        "org.kde.konsole",
+        "ptyxis",
+        "utilities-terminal",
+        "xfce4-terminal"
+      ]
+    },
+    "org.gnome.Loupe": {
+      "source": "128x128/apps/eog.png",
+      "label": "Image Viewer / Preview",
+      "aliases": [
+        "eog",
+        "gthumb",
+        "gwenview",
+        "loupe",
+        "org.gnome.eog",
+        "org.gnome.gThumb"
+      ]
+    },
+    "org.gnome.Showtime": {
+      "source": "128x128/apps/quicktime.png",
+      "label": "Video / QuickTime",
+      "aliases": [
+        "celluloid",
+        "io.github.celluloid_player.Celluloid",
+        "quicktime",
+        "showtime"
+      ]
+    },
+    "org.gnome.Decibels": {
+      "source": "128x128/apps/rhythmbox.png",
+      "label": "Music / iTunes",
+      "aliases": [
+        "atunes",
+        "banshee",
+        "bmp",
+        "decibels",
+        "listen",
+        "music",
+        "noatum",
+        "noatun",
+        "org.gnome.Music",
+        "org.gnome.Rhythmbox3",
+        "rhythmbox",
+        "xmms"
+      ]
+    },
+    "org.gnome.Papers": {
+      "source": "128x128/apps/evince.png",
+      "label": "Documents / Preview",
+      "aliases": [
+        "atril",
+        "evince",
+        "org.gnome.Evince",
+        "papers",
+        "xreader"
+      ]
+    },
+    "org.gnome.FileRoller": {
+      "source": "128x128/apps/file-roller.png",
+      "label": "Archive Manager",
+      "aliases": [
+        "engrampa",
+        "file-roller",
+        "org.mate.Engrampa"
+      ]
+    },
+    "org.gnome.Snapshot": {
+      "source": "128x128/apps/cheese.png",
+      "label": "Camera / Photo Booth",
+      "aliases": [
+        "cheese",
+        "org.gnome.Cheese",
+        "snapshot"
+      ]
+    },
+    "org.gnome.SimpleScan": {
+      "source": "128x128/devices/scanner.png",
+      "label": "Document Scanner",
+      "aliases": [
+        "hp-uiscan",
+        "simple-scan"
+      ],
+      "desktop_files": [
+        "hp-uiscan.desktop"
+      ]
+    },
+    "org.gnome.Resources": {
+      "source": "128x128/apps/utilities-system-monitor.png",
+      "label": "Activity Monitor",
+      "aliases": [
+        "btop",
+        "gnome-system-monitor",
+        "htop",
+        "net.nokyan.Resources",
+        "org.gnome.SystemMonitor",
+        "org.gnome.Usage",
+        "resources",
+        "utilities-system-monitor"
+      ]
+    },
+    "org.gnome.DiskUtility": {
+      "source": "128x128/apps/palimpsest.png",
+      "label": "Disk Utility",
+      "aliases": [
+        "gnome-disks",
+        "palimpsest"
+      ]
+    },
+    "org.gnome.baobab": {
+      "source": "128x128/apps/baobab.png",
+      "label": "Disk Usage Analyzer",
+      "aliases": [
+        "baobab"
+      ]
+    },
+    "org.gnome.PowerStats": {
+      "source": "128x128/apps/gnome-power-manager.png",
+      "label": "Power Statistics",
+      "aliases": [
+        "gnome-power-manager",
+        "gnome-power-statistics"
+      ]
+    },
+    "org.gnome.tweaks": {
+      "source": "128x128/apps/wmtweaks.png",
+      "label": "Tweaks",
+      "aliases": [
+        "gnome-tweaks",
+        "wmtweaks"
+      ]
+    },
+    "gnome-color-manager": {
+      "source": "128x128/apps/gnome-color-browser.png",
+      "label": "ColorSync Utility",
+      "aliases": [
+        "gcm-picker",
+        "gnome-color-browser",
+        "org.gnome.ColorProfileViewer"
+      ]
+    },
+    "org.pulseaudio.pavucontrol": {
+      "source": "128x128/apps/volume-knob.png",
+      "label": "Volume Control",
+      "aliases": [
+        "gnome-mixer",
+        "pavucontrol",
+        "pavucontrol-qt",
+        "volume-knob"
+      ]
+    },
+    "org.gnome.Software": {
+      "source": "128x128/apps/softwarecenter.png",
+      "label": "Software / App Store",
+      "aliases": [
+        "cachyos-pi",
+        "gnome-software",
+        "gpk-application",
+        "org.gnome.PackageKit",
+        "softwarecenter"
+      ]
+    },
+    "shelly": {
+      "source": "128x128/apps/package_utilities.png",
+      "label": "Shelly",
+      "aliases": [
+        "applications-accessories",
+        "com.shellyorg.shelly",
+        "package_utilities",
+        "redhat-accessories",
+        "xfce-utils"
+      ]
+    },
+    "org.gnome.Epiphany": {
+      "source": "128x128/apps/web-browser.png",
+      "label": "Web Browser",
+      "aliases": [
+        "epiphany",
+        "internet-web-browser",
+        "web-browser"
+      ]
+    },
+    "org.gnome.Geary": {
+      "source": "128x128/apps/evolution.png",
+      "label": "Mail",
+      "aliases": [
+        "evolution",
+        "evolution-2.8",
+        "geary",
+        "internet-mail",
+        "kontact",
+        "mozilla-mail-icon",
+        "mozilla-thunderbird",
+        "org.gnome.Evolution",
+        "org.kde.kontact",
+        "org.mozilla.thunderbird",
+        "redhat-email",
+        "thunderbird",
+        "thunderbird-bin",
+        "thunderbird-mozilla-build"
+      ]
+    },
+    "org.gnome.Calendar": {
+      "source": "128x128/apps/calendar.png",
+      "label": "Calendar",
+      "aliases": [
+        "calendar",
+        "gnome-calendar",
+        "x-office-calendar"
+      ]
+    },
+    "org.gnome.Contacts": {
+      "source": "128x128/apps/contacts.png",
+      "label": "Address Book",
+      "aliases": [
+        "addressbook",
+        "contacts",
+        "gnome-contacts"
+      ]
+    },
+    "org.gnome.Notes": {
+      "source": "128x128/apps/knotes.png",
+      "label": "Stickies",
+      "aliases": [
+        "bijiben",
+        "knotes",
+        "org.gnome.bijiben"
+      ]
+    },
+    "org.gnome.font-viewer": {
+      "source": "128x128/apps/fonts.png",
+      "label": "Font Book",
+      "aliases": [
+        "fonts",
+        "gnome-font-viewer",
+        "org.gnome.FontViewer",
+        "preferences-desktop-font"
+      ]
+    },
+    "org.gnome.clocks": {
+      "source": "128x128/apps/clock.png",
+      "label": "Clock",
+      "aliases": [
+        "clock",
+        "gnome-clocks",
+        "org.gnome.Clocks",
+        "time"
+      ]
+    },
+    "org.gnome.Connections": {
+      "source": "128x128/apps/gnome-remote-desktop.png",
+      "label": "Screen Sharing",
+      "aliases": [
+        "gnome-connections",
+        "gnome-remote-desktop",
+        "krfb",
+        "tsclient"
+      ]
+    },
+    "org.gnome.DejaDup": {
+      "source": "128x128/apps/timemachine.png",
+      "label": "Time Machine / Backups",
+      "aliases": [
+        "deja-dup",
+        "timemachine"
+      ]
+    },
+    "org.gnome.Chess": {
+      "source": "128x128/apps/glchess.png",
+      "label": "Chess",
+      "aliases": [
+        "glchess",
+        "gnome-chess"
+      ]
+    },
+    "org.gnome.Calculator": {
+      "source": "128x128/apps/accessories-calculator.png",
+      "label": "Calculator",
+      "aliases": [
+        "accessories-calculator",
+        "gcalctool",
+        "gnome-calculator"
+      ]
+    },
+    "google-chrome": {
+      "source": "128x128/apps/google-chrome.png",
+      "label": "Google Chrome",
+      "aliases": [
+        "chromium",
+        "chromium-browser",
+        "com.google.Chrome",
+        "google-chrome-stable"
+      ]
+    },
+    "firefox": {
+      "source": "128x128/apps/firefox.png",
+      "label": "Firefox",
+      "aliases": [
+        "firefox-esr",
+        "org.mozilla.firefox"
+      ]
+    },
+    "steam": {
+      "source": "128x128/apps/steam.png",
+      "label": "Steam",
+      "aliases": [
+        "com.valvesoftware.Steam"
+      ]
+    },
+    "sqlitebrowser": {
+      "source": "128x128/apps/sqlitebrowser.png",
+      "label": "DB Browser for SQLite",
+      "aliases": [
+        "org.sqlitebrowser.sqlitebrowser"
+      ]
+    },
+    "org.gnome.Meld": {
+      "source": "128x128/apps/meld.png",
+      "label": "Meld",
+      "aliases": [
+        "meld",
+        "org.gnome.meld"
+      ]
+    },
+    "org.gimp.GIMP": {
+      "source": "128x128/apps/gimp.png",
+      "label": "GIMP",
+      "aliases": [
+        "gimp",
+        "gimp-2.10",
+        "gimp-3.0",
+        "gimp2_0"
+      ]
+    },
+    "org.inkscape.Inkscape": {
+      "source": "128x128/apps/inkscape.png",
+      "label": "Inkscape",
+      "aliases": [
+        "inkscape",
+        "sodipodi"
+      ]
+    },
+    "gvim": {
+      "source": "128x128/apps/gvim.png",
+      "label": "Vim",
+      "aliases": [
+        "org.vim.Vim",
+        "vim"
+      ]
+    },
+    "org.gnome.seahorse.Application": {
+      "source": "128x128/apps/seahorse.png",
+      "label": "Passwords and Keys",
+      "aliases": [
+        "seahorse"
+      ]
+    },
+    "org.gnome.dconf-editor": {
+      "source": "128x128/apps/gconf-editor.png",
+      "label": "Configuration Editor",
+      "aliases": [
+        "dconf-editor",
+        "gconf-editor"
+      ]
+    },
+    "cachy-update-blue": {
+      "source": "128x128/apps/system-software-installer.png",
+      "label": "Software Update",
+      "aliases": [
+        "arch-update",
+        "org.gnome.SoundJuicer",
+        "sound-juicer",
+        "system-software-installer"
+      ]
+    },
+    "wine": {
+      "source": "128x128/apps/wine.png",
+      "label": "Wine Tools",
+      "aliases": [
+        "org.winehq.Wine",
+        "protontricks",
+        "protontricks-launch",
+        "winetricks"
+      ]
+    },
+    "cheetah-hardware-topology": {
+      "source": "128x128/apps/hwbrowser.png",
+      "label": "Hardware Information",
+      "aliases": [
+        "hwbrowser",
+        "hwloc",
+        "lion-hardware-topology",
+        "lstopo",
+        "win7-hardware-topology"
+      ]
+    },
+    "cheetah-print-settings": {
+      "source": "128x128/devices/printer.png",
+      "label": "Print Settings",
+      "aliases": [
+        "cups",
+        "lion-print-settings",
+        "system-config-printer",
+        "win7-print-settings"
+      ],
+      "desktop_files": [
+        "system-config-printer.desktop"
+      ]
+    },
+    "-applications-graphics": {
+      "source": "128x128/apps/-applications-graphics.png",
+      "label": "-applications-graphics",
+      "aliases": []
+    },
+    "-applications-other": {
+      "source": "128x128/apps/-applications-other.png",
+      "label": "-applications-other",
+      "aliases": []
+    },
+    "-preferences-system": {
+      "source": "128x128/apps/-preferences-system.png",
+      "label": "-preferences-system",
+      "aliases": []
+    },
+    "-terminal": {
+      "source": "128x128/apps/-terminal.png",
+      "label": "-terminal",
+      "aliases": []
+    },
+    "-vlc": {
+      "source": "128x128/apps/-vlc.png",
+      "label": "-vlc",
+      "aliases": []
+    },
+    "AdobeReader8": {
+      "source": "128x128/apps/AdobeReader8.png",
+      "label": "AdobeReader8",
+      "aliases": [
+        "adobereader8"
+      ]
+    },
+    "Bitcomet": {
+      "source": "128x128/apps/Bitcomet.png",
+      "label": "Bitcomet",
+      "aliases": [
+        "bitcomet"
+      ]
+    },
+    "DC++": {
+      "source": "128x128/apps/DC++.png",
+      "label": "DC++",
+      "aliases": [
+        "dc++",
+        "linuxdcpp"
+      ]
+    },
+    "FoxitReader": {
+      "source": "128x128/apps/FoxitReader.png",
+      "label": "FoxitReader",
+      "aliases": [
+        "foxitreader",
+        "fx-icon"
+      ]
+    },
+    "Link": {
+      "source": "128x128/apps/Link.png",
+      "label": "Link",
+      "aliases": [
+        "link"
+      ]
+    },
+    "Pictures": {
+      "source": "128x128/apps/Pictures.png",
+      "label": "Pictures",
+      "aliases": [
+        "pictures"
+      ]
+    },
+    "Sherlock": {
+      "source": "128x128/apps/Sherlock.png",
+      "label": "Sherlock",
+      "aliases": [
+        "sherlock"
+      ]
+    },
+    "Terminal": {
+      "source": "128x128/apps/Terminal.png",
+      "label": "Terminal",
+      "aliases": [
+        "terminal"
+      ]
+    },
+    "TileRacer": {
+      "source": "128x128/apps/TileRacer.png",
+      "label": "TileRacer",
+      "aliases": [
+        "tileracer"
+      ]
+    },
+    "VBox": {
+      "source": "128x128/apps/VBox.png",
+      "label": "VBox",
+      "aliases": [
+        "vbox",
+        "virtualbox"
+      ]
+    },
+    "VBox2": {
+      "source": "128x128/apps/VBox2.png",
+      "label": "VBox2",
+      "aliases": [
+        "vbox2"
+      ]
+    },
+    "VBox3": {
+      "source": "128x128/apps/VBox3.png",
+      "label": "VBox3",
+      "aliases": [
+        "vbox3"
+      ]
+    },
+    "VLC": {
+      "source": "128x128/apps/VLC.png",
+      "label": "VLC",
+      "aliases": [
+        "org.videolan.VLC",
+        "vlc"
+      ]
+    },
+    "Winamp": {
+      "source": "128x128/apps/Winamp.png",
+      "label": "Winamp",
+      "aliases": [
+        "winamp"
+      ]
+    },
+    "YM": {
+      "source": "128x128/apps/YM.png",
+      "label": "YM",
+      "aliases": [
+        "ym"
+      ]
+    },
+    "_wine": {
+      "source": "128x128/apps/_wine.png",
+      "label": "_wine",
+      "aliases": []
+    },
+    "abiword": {
+      "source": "128x128/apps/abiword.png",
+      "label": "abiword",
+      "aliases": [
+        "com.abisource.AbiWord"
+      ]
+    },
+    "accessories-character-map": {
+      "source": "128x128/apps/accessories-character-map.png",
+      "label": "accessories-character-map",
+      "aliases": []
+    },
+    "accessories-dictionary": {
+      "source": "128x128/apps/accessories-dictionary.png",
+      "label": "accessories-dictionary",
+      "aliases": []
+    },
+    "acroread": {
+      "source": "128x128/apps/acroread.png",
+      "label": "acroread",
+      "aliases": []
+    },
+    "administration": {
+      "source": "128x128/apps/administration.png",
+      "label": "administration",
+      "aliases": []
+    },
+    "advancedsettings": {
+      "source": "128x128/apps/advancedsettings.png",
+      "label": "advancedsettings",
+      "aliases": []
+    },
+    "agave-icon": {
+      "source": "128x128/apps/agave-icon.png",
+      "label": "agave-icon",
+      "aliases": [
+        "colors",
+        "colorscm",
+        "colorset",
+        "gcolor2",
+        "kcmcolorchooser"
+      ]
+    },
+    "agent": {
+      "source": "128x128/apps/agent.png",
+      "label": "agent",
+      "aliases": []
+    },
+    "aim": {
+      "source": "128x128/apps/aim.png",
+      "label": "aim",
+      "aliases": []
+    },
+    "akregator": {
+      "source": "128x128/apps/akregator.png",
+      "label": "akregator",
+      "aliases": [
+        "org.kde.akregator"
+      ]
+    },
+    "alacarte": {
+      "source": "128x128/apps/alacarte.png",
+      "label": "alacarte",
+      "aliases": []
+    },
+    "alarm-clock": {
+      "source": "128x128/apps/alarm-clock.png",
+      "label": "alarm-clock",
+      "aliases": []
+    },
+    "alien-arena": {
+      "source": "128x128/apps/alien-arena.png",
+      "label": "alien-arena",
+      "aliases": []
+    },
+    "alienarena": {
+      "source": "128x128/apps/alienarena.png",
+      "label": "alienarena",
+      "aliases": []
+    },
+    "amarok": {
+      "source": "128x128/apps/amarok.png",
+      "label": "amarok",
+      "aliases": [
+        "org.kde.amarok"
+      ]
+    },
+    "amsn": {
+      "source": "128x128/apps/amsn.png",
+      "label": "amsn",
+      "aliases": []
+    },
+    "amule": {
+      "source": "128x128/apps/amule.png",
+      "label": "amule",
+      "aliases": []
+    },
+    "anjuta": {
+      "source": "128x128/apps/anjuta.png",
+      "label": "anjuta",
+      "aliases": []
+    },
+    "apacheconf": {
+      "source": "128x128/apps/apacheconf.png",
+      "label": "apacheconf",
+      "aliases": []
+    },
+    "applet-busy": {
+      "source": "128x128/apps/applet-busy.png",
+      "label": "applet-busy",
+      "aliases": []
+    },
+    "applet-critical-blank": {
+      "source": "128x128/apps/applet-critical-blank.png",
+      "label": "applet-critical-blank",
+      "aliases": []
+    },
+    "applet-critical": {
+      "source": "128x128/apps/applet-critical.png",
+      "label": "applet-critical",
+      "aliases": []
+    },
+    "applet-disconnect": {
+      "source": "128x128/apps/applet-disconnect.png",
+      "label": "applet-disconnect",
+      "aliases": []
+    },
+    "applet-error": {
+      "source": "128x128/apps/applet-error.png",
+      "label": "applet-error",
+      "aliases": []
+    },
+    "applet-okay": {
+      "source": "128x128/apps/applet-okay.png",
+      "label": "applet-okay",
+      "aliases": []
+    },
+    "applets-screenshooter": {
+      "source": "128x128/apps/applets-screenshooter.png",
+      "label": "applets-screenshooter",
+      "aliases": []
+    },
+    "applications-engineering": {
+      "source": "128x128/apps/applications-engineering.png",
+      "label": "applications-engineering",
+      "aliases": []
+    },
+    "applications-games": {
+      "source": "128x128/apps/applications-games.png",
+      "label": "applications-games",
+      "aliases": [
+        "redhat-games"
+      ]
+    },
+    "applications-graphics": {
+      "source": "128x128/apps/applications-graphics.png",
+      "label": "applications-graphics",
+      "aliases": [
+        "package_graphics",
+        "redhat-graphics"
+      ]
+    },
+    "applications-internet": {
+      "source": "128x128/apps/applications-internet.png",
+      "label": "applications-internet",
+      "aliases": [
+        "gnome-globe",
+        "package_network",
+        "redhat-internet",
+        "stock_internet",
+        "xfce-internet"
+      ]
+    },
+    "applications-multimedia": {
+      "source": "128x128/apps/applications-multimedia.png",
+      "label": "applications-multimedia",
+      "aliases": []
+    },
+    "applications-office": {
+      "source": "128x128/apps/applications-office.png",
+      "label": "applications-office",
+      "aliases": [
+        "package_office",
+        "redhat-office",
+        "xfce-office"
+      ]
+    },
+    "applications-other": {
+      "source": "128x128/apps/applications-other.png",
+      "label": "applications-other",
+      "aliases": []
+    },
+    "applications-science": {
+      "source": "128x128/apps/applications-science.png",
+      "label": "applications-science",
+      "aliases": []
+    },
+    "applications-utilities": {
+      "source": "128x128/apps/applications-utilities.png",
+      "label": "applications-utilities",
+      "aliases": []
+    },
+    "applixware": {
+      "source": "128x128/apps/applixware.png",
+      "label": "applixware",
+      "aliases": []
+    },
+    "apport-gtk": {
+      "source": "128x128/apps/apport-gtk.png",
+      "label": "apport-gtk",
+      "aliases": [
+        "apport"
+      ]
+    },
+    "ardour": {
+      "source": "128x128/apps/ardour.png",
+      "label": "ardour",
+      "aliases": [
+        "org.ardour.Ardour"
+      ]
+    },
+    "arts": {
+      "source": "128x128/apps/arts.png",
+      "label": "arts",
+      "aliases": [
+        "multimedia-volume-control"
+      ]
+    },
+    "artsbuilder": {
+      "source": "128x128/apps/artsbuilder.png",
+      "label": "artsbuilder",
+      "aliases": []
+    },
+    "artscontrol": {
+      "source": "128x128/apps/artscontrol.png",
+      "label": "artscontrol",
+      "aliases": []
+    },
+    "assistant": {
+      "source": "128x128/apps/assistant.png",
+      "label": "assistant",
+      "aliases": []
+    },
+    "atomix": {
+      "source": "128x128/apps/atomix.png",
+      "label": "atomix",
+      "aliases": [
+        "org.gnome.atomix"
+      ]
+    },
+    "audacious": {
+      "source": "128x128/apps/audacious.png",
+      "label": "audacious",
+      "aliases": [
+        "org.atheme.audacious"
+      ]
+    },
+    "audacious2": {
+      "source": "128x128/apps/audacious2.png",
+      "label": "audacious2",
+      "aliases": []
+    },
+    "audacity": {
+      "source": "128x128/apps/audacity.png",
+      "label": "audacity",
+      "aliases": [
+        "org.audacityteam.Audacity"
+      ]
+    },
+    "autopackage-manager-gtk": {
+      "source": "128x128/apps/autopackage-manager-gtk.png",
+      "label": "autopackage-manager-gtk",
+      "aliases": []
+    },
+    "avant-window-navigator-48": {
+      "source": "128x128/apps/avant-window-navigator-48.png",
+      "label": "avant-window-navigator-48",
+      "aliases": [
+        "avant-window-navigator",
+        "awn",
+        "awn-manager",
+        "awn-settings"
+      ]
+    },
+    "avidemux": {
+      "source": "128x128/apps/avidemux.png",
+      "label": "avidemux",
+      "aliases": [
+        "org.avidemux.Avidemux"
+      ]
+    },
+    "ax-applet": {
+      "source": "128x128/apps/ax-applet.png",
+      "label": "ax-applet",
+      "aliases": []
+    },
+    "azureus": {
+      "source": "128x128/apps/azureus.png",
+      "label": "azureus",
+      "aliases": []
+    },
+    "background": {
+      "source": "128x128/apps/background.png",
+      "label": "background",
+      "aliases": [
+        "gnome-settings-background",
+        "preferences-desktop-wallpaper"
+      ]
+    },
+    "backup_section": {
+      "source": "128x128/apps/backup_section.png",
+      "label": "backup_section",
+      "aliases": []
+    },
+    "banshee-1": {
+      "source": "128x128/apps/banshee-1.png",
+      "label": "banshee-1",
+      "aliases": []
+    },
+    "beagled": {
+      "source": "128x128/apps/beagled.png",
+      "label": "beagled",
+      "aliases": []
+    },
+    "bell": {
+      "source": "128x128/apps/bell.png",
+      "label": "bell",
+      "aliases": []
+    },
+    "beryl-manager": {
+      "source": "128x128/apps/beryl-manager.png",
+      "label": "beryl-manager",
+      "aliases": []
+    },
+    "beryl": {
+      "source": "128x128/apps/beryl.png",
+      "label": "beryl",
+      "aliases": [
+        "compiz.real"
+      ]
+    },
+    "bittorrent": {
+      "source": "128x128/apps/bittorrent.png",
+      "label": "bittorrent",
+      "aliases": []
+    },
+    "bitwash": {
+      "source": "128x128/apps/bitwash.png",
+      "label": "bitwash",
+      "aliases": []
+    },
+    "blender": {
+      "source": "128x128/apps/blender.png",
+      "label": "blender",
+      "aliases": [
+        "org.blender.Blender"
+      ]
+    },
+    "blobby": {
+      "source": "128x128/apps/blobby.png",
+      "label": "blobby",
+      "aliases": []
+    },
+    "blueradio-48": {
+      "source": "128x128/apps/blueradio-48.png",
+      "label": "blueradio-48",
+      "aliases": []
+    },
+    "blueradio": {
+      "source": "128x128/apps/blueradio.png",
+      "label": "blueradio",
+      "aliases": [
+        "bluetoothradio"
+      ]
+    },
+    "bluetooth-48": {
+      "source": "128x128/apps/bluetooth-48.png",
+      "label": "bluetooth-48",
+      "aliases": [
+        "bluetooth",
+        "bluetooth-sendto",
+        "bt-logo",
+        "stock_bluetooth"
+      ]
+    },
+    "bluetooth-black": {
+      "source": "128x128/apps/bluetooth-black.png",
+      "label": "bluetooth-black",
+      "aliases": []
+    },
+    "bluetooth2": {
+      "source": "128x128/apps/bluetooth2.png",
+      "label": "bluetooth2",
+      "aliases": []
+    },
+    "bolzplatz": {
+      "source": "128x128/apps/bolzplatz.png",
+      "label": "bolzplatz",
+      "aliases": []
+    },
+    "bombic": {
+      "source": "128x128/apps/bombic.png",
+      "label": "bombic",
+      "aliases": []
+    },
+    "bonfire": {
+      "source": "128x128/apps/bonfire.png",
+      "label": "bonfire",
+      "aliases": []
+    },
+    "boot": {
+      "source": "128x128/apps/boot.png",
+      "label": "boot",
+      "aliases": []
+    },
+    "bootcamp": {
+      "source": "128x128/apps/bootcamp.png",
+      "label": "bootcamp",
+      "aliases": []
+    },
+    "brasero": {
+      "source": "128x128/apps/brasero.png",
+      "label": "brasero",
+      "aliases": [
+        "org.gnome.Brasero"
+      ]
+    },
+    "brasero_": {
+      "source": "128x128/apps/brasero_.png",
+      "label": "brasero_",
+      "aliases": []
+    },
+    "briquolo": {
+      "source": "128x128/apps/briquolo.png",
+      "label": "briquolo",
+      "aliases": []
+    },
+    "bug-buddy": {
+      "source": "128x128/apps/bug-buddy.png",
+      "label": "bug-buddy",
+      "aliases": []
+    },
+    "bum": {
+      "source": "128x128/apps/bum.png",
+      "label": "bum",
+      "aliases": []
+    },
+    "bygfoot": {
+      "source": "128x128/apps/bygfoot.png",
+      "label": "bygfoot",
+      "aliases": []
+    },
+    "cache": {
+      "source": "128x128/apps/cache.png",
+      "label": "cache",
+      "aliases": []
+    },
+    "caffeine": {
+      "source": "128x128/apps/caffeine.png",
+      "label": "caffeine",
+      "aliases": []
+    },
+    "calc": {
+      "source": "128x128/apps/calc.png",
+      "label": "calc",
+      "aliases": [
+        "org.speedcrunch.SpeedCrunch",
+        "speedcrunch"
+      ]
+    },
+    "camera": {
+      "source": "128x128/apps/camera.png",
+      "label": "camera",
+      "aliases": []
+    },
+    "camorama": {
+      "source": "128x128/apps/camorama.png",
+      "label": "camorama",
+      "aliases": []
+    },
+    "catfish": {
+      "source": "128x128/apps/catfish.png",
+      "label": "catfish",
+      "aliases": []
+    },
+    "ccsm": {
+      "source": "128x128/apps/ccsm.png",
+      "label": "ccsm",
+      "aliases": [
+        "simple-ccsm"
+      ]
+    },
+    "cedega": {
+      "source": "128x128/apps/cedega.png",
+      "label": "cedega",
+      "aliases": []
+    },
+    "cervisia": {
+      "source": "128x128/apps/cervisia.png",
+      "label": "cervisia",
+      "aliases": []
+    },
+    "charpick": {
+      "source": "128x128/apps/charpick.png",
+      "label": "charpick",
+      "aliases": []
+    },
+    "checkgmail": {
+      "source": "128x128/apps/checkgmail.png",
+      "label": "checkgmail",
+      "aliases": []
+    },
+    "cinelerra": {
+      "source": "128x128/apps/cinelerra.png",
+      "label": "cinelerra",
+      "aliases": []
+    },
+    "clamav": {
+      "source": "128x128/apps/clamav.png",
+      "label": "clamav",
+      "aliases": []
+    },
+    "clamtk": {
+      "source": "128x128/apps/clamtk.png",
+      "label": "clamtk",
+      "aliases": []
+    },
+    "clanbomber": {
+      "source": "128x128/apps/clanbomber.png",
+      "label": "clanbomber",
+      "aliases": []
+    },
+    "codeblocks": {
+      "source": "128x128/apps/codeblocks.png",
+      "label": "codeblocks",
+      "aliases": [
+        "org.codeblocks.codeblocks"
+      ]
+    },
+    "cog-icon-2-48x48": {
+      "source": "128x128/apps/cog-icon-2-48x48.png",
+      "label": "cog-icon-2-48x48",
+      "aliases": []
+    },
+    "colorscheme": {
+      "source": "128x128/apps/colorscheme.png",
+      "label": "colorscheme",
+      "aliases": []
+    },
+    "computer": {
+      "source": "128x128/apps/computer.png",
+      "label": "computer",
+      "aliases": []
+    },
+    "computerjanitor": {
+      "source": "128x128/apps/computerjanitor.png",
+      "label": "computerjanitor",
+      "aliases": []
+    },
+    "conduit": {
+      "source": "128x128/apps/conduit.png",
+      "label": "conduit",
+      "aliases": [
+        "grsync"
+      ]
+    },
+    "config-language": {
+      "source": "128x128/apps/config-language.png",
+      "label": "config-language",
+      "aliases": [
+        "net.poedit.Poedit",
+        "poedit",
+        "system-config-language"
+      ]
+    },
+    "config-users": {
+      "source": "128x128/apps/config-users.png",
+      "label": "config-users",
+      "aliases": [
+        "system-users"
+      ]
+    },
+    "conky": {
+      "source": "128x128/apps/conky.png",
+      "label": "conky",
+      "aliases": []
+    },
+    "cookie": {
+      "source": "128x128/apps/cookie.png",
+      "label": "cookie",
+      "aliases": []
+    },
+    "cowbell": {
+      "source": "128x128/apps/cowbell.png",
+      "label": "cowbell",
+      "aliases": []
+    },
+    "crack-attack": {
+      "source": "128x128/apps/crack-attack.png",
+      "label": "crack-attack",
+      "aliases": []
+    },
+    "crossover": {
+      "source": "128x128/apps/crossover.png",
+      "label": "crossover",
+      "aliases": []
+    },
+    "cryptkeeper": {
+      "source": "128x128/apps/cryptkeeper.png",
+      "label": "cryptkeeper",
+      "aliases": []
+    },
+    "daemons": {
+      "source": "128x128/apps/daemons.png",
+      "label": "daemons",
+      "aliases": []
+    },
+    "dashcode": {
+      "source": "128x128/apps/dashcode.png",
+      "label": "dashcode",
+      "aliases": []
+    },
+    "date": {
+      "source": "128x128/apps/date.png",
+      "label": "date",
+      "aliases": []
+    },
+    "dates": {
+      "source": "128x128/apps/dates.png",
+      "label": "dates",
+      "aliases": []
+    },
+    "deluge-torrent": {
+      "source": "128x128/apps/deluge-torrent.png",
+      "label": "deluge-torrent",
+      "aliases": []
+    },
+    "deluge": {
+      "source": "128x128/apps/deluge.png",
+      "label": "deluge",
+      "aliases": [
+        "org.deluge_torrent.deluge"
+      ]
+    },
+    "designer": {
+      "source": "128x128/apps/designer.png",
+      "label": "designer",
+      "aliases": []
+    },
+    "deskbar-applet-panel-h": {
+      "source": "128x128/apps/deskbar-applet-panel-h.png",
+      "label": "deskbar-applet-panel-h",
+      "aliases": [
+        "deskbar",
+        "deskbar-applet"
+      ]
+    },
+    "deskbar-applet-panel-v": {
+      "source": "128x128/apps/deskbar-applet-panel-v.png",
+      "label": "deskbar-applet-panel-v",
+      "aliases": []
+    },
+    "desktop-effects": {
+      "source": "128x128/apps/desktop-effects.png",
+      "label": "desktop-effects",
+      "aliases": []
+    },
+    "desktops": {
+      "source": "128x128/apps/desktops.png",
+      "label": "desktops",
+      "aliases": []
+    },
+    "devede": {
+      "source": "128x128/apps/devede.png",
+      "label": "devede",
+      "aliases": [
+        "dvdisaster",
+        "mandvdico",
+        "qdvdauthor",
+        "video-dvd"
+      ]
+    },
+    "dia_gnome_icon": {
+      "source": "128x128/apps/dia_gnome_icon.png",
+      "label": "dia_gnome_icon",
+      "aliases": []
+    },
+    "display-capplet": {
+      "source": "128x128/apps/display-capplet.png",
+      "label": "display-capplet",
+      "aliases": []
+    },
+    "dlgedit": {
+      "source": "128x128/apps/dlgedit.png",
+      "label": "dlgedit",
+      "aliases": []
+    },
+    "doc": {
+      "source": "128x128/apps/doc.png",
+      "label": "doc",
+      "aliases": []
+    },
+    "dosemu": {
+      "source": "128x128/apps/dosemu.png",
+      "label": "dosemu",
+      "aliases": [
+        "xdosemu"
+      ]
+    },
+    "dropbox": {
+      "source": "128x128/apps/dropbox.png",
+      "label": "dropbox",
+      "aliases": []
+    },
+    "dvdrip": {
+      "source": "128x128/apps/dvdrip.png",
+      "label": "dvdrip",
+      "aliases": []
+    },
+    "dvdstyler": {
+      "source": "128x128/apps/dvdstyler.png",
+      "label": "dvdstyler",
+      "aliases": []
+    },
+    "easytag": {
+      "source": "128x128/apps/easytag.png",
+      "label": "easytag",
+      "aliases": [
+        "org.gnome.EasyTAG"
+      ]
+    },
+    "eclipse": {
+      "source": "128x128/apps/eclipse.png",
+      "label": "eclipse",
+      "aliases": []
+    },
+    "eiciel": {
+      "source": "128x128/apps/eiciel.png",
+      "label": "eiciel",
+      "aliases": []
+    },
+    "ekiga-snapshot": {
+      "source": "128x128/apps/ekiga-snapshot.png",
+      "label": "ekiga-snapshot",
+      "aliases": [
+        "ekiga"
+      ]
+    },
+    "elisa": {
+      "source": "128x128/apps/elisa.png",
+      "label": "elisa",
+      "aliases": [
+        "org.kde.elisa"
+      ]
+    },
+    "emacs": {
+      "source": "128x128/apps/emacs.png",
+      "label": "emacs",
+      "aliases": []
+    },
+    "email": {
+      "source": "128x128/apps/email.png",
+      "label": "email",
+      "aliases": []
+    },
+    "emerald-theme-manager-icon": {
+      "source": "128x128/apps/emerald-theme-manager-icon.png",
+      "label": "emerald-theme-manager-icon",
+      "aliases": []
+    },
+    "emerald": {
+      "source": "128x128/apps/emerald.png",
+      "label": "emerald",
+      "aliases": []
+    },
+    "emesene": {
+      "source": "128x128/apps/emesene.png",
+      "label": "emesene",
+      "aliases": []
+    },
+    "energy": {
+      "source": "128x128/apps/energy.png",
+      "label": "energy",
+      "aliases": []
+    },
+    "energy_star": {
+      "source": "128x128/apps/energy_star.png",
+      "label": "energy_star",
+      "aliases": []
+    },
+    "enhanced_browsing": {
+      "source": "128x128/apps/enhanced_browsing.png",
+      "label": "enhanced_browsing",
+      "aliases": []
+    },
+    "ethereal": {
+      "source": "128x128/apps/ethereal.png",
+      "label": "ethereal",
+      "aliases": []
+    },
+    "evolution-1.4": {
+      "source": "128x128/apps/evolution-1.4.png",
+      "label": "evolution-1.4",
+      "aliases": []
+    },
+    "evolution-1.5": {
+      "source": "128x128/apps/evolution-1.5.png",
+      "label": "evolution-1.5",
+      "aliases": []
+    },
+    "evolution-alarm-notify": {
+      "source": "128x128/apps/evolution-alarm-notify.png",
+      "label": "evolution-alarm-notify",
+      "aliases": []
+    },
+    "evolution-calendar": {
+      "source": "128x128/apps/evolution-calendar.png",
+      "label": "evolution-calendar",
+      "aliases": []
+    },
+    "evolution-mail": {
+      "source": "128x128/apps/evolution-mail.png",
+      "label": "evolution-mail",
+      "aliases": []
+    },
+    "evolution-tasks": {
+      "source": "128x128/apps/evolution-tasks.png",
+      "label": "evolution-tasks",
+      "aliases": []
+    },
+    "evolution2": {
+      "source": "128x128/apps/evolution2.png",
+      "label": "evolution2",
+      "aliases": []
+    },
+    "exaile-tray-icon": {
+      "source": "128x128/apps/exaile-tray-icon.png",
+      "label": "exaile-tray-icon",
+      "aliases": []
+    },
+    "exaile": {
+      "source": "128x128/apps/exaile.png",
+      "label": "exaile",
+      "aliases": [
+        "org.exaile.Exaile"
+      ]
+    },
+    "expose": {
+      "source": "128x128/apps/expose.png",
+      "label": "expose",
+      "aliases": []
+    },
+    "eyes": {
+      "source": "128x128/apps/eyes.png",
+      "label": "eyes",
+      "aliases": []
+    },
+    "f-spot-logo": {
+      "source": "128x128/apps/f-spot-logo.png",
+      "label": "f-spot-logo",
+      "aliases": []
+    },
+    "f-spot": {
+      "source": "128x128/apps/f-spot.png",
+      "label": "f-spot",
+      "aliases": []
+    },
+    "fedora-logo-icon": {
+      "source": "128x128/apps/fedora-logo-icon.png",
+      "label": "fedora-logo-icon",
+      "aliases": []
+    },
+    "fifteenpieces": {
+      "source": "128x128/apps/fifteenpieces.png",
+      "label": "fifteenpieces",
+      "aliases": []
+    },
+    "filelight": {
+      "source": "128x128/apps/filelight.png",
+      "label": "filelight",
+      "aliases": [
+        "org.kde.filelight"
+      ]
+    },
+    "fileshare": {
+      "source": "128x128/apps/fileshare.png",
+      "label": "fileshare",
+      "aliases": []
+    },
+    "filetypes": {
+      "source": "128x128/apps/filetypes.png",
+      "label": "filetypes",
+      "aliases": []
+    },
+    "filezilla": {
+      "source": "128x128/apps/filezilla.png",
+      "label": "filezilla",
+      "aliases": [
+        "org.filezillaproject.Filezilla"
+      ]
+    },
+    "firestarter": {
+      "source": "128x128/apps/firestarter.png",
+      "label": "firestarter",
+      "aliases": []
+    },
+    "firewall": {
+      "source": "128x128/apps/firewall.png",
+      "label": "firewall",
+      "aliases": []
+    },
+    "fireworks": {
+      "source": "128x128/apps/fireworks.png",
+      "label": "fireworks",
+      "aliases": []
+    },
+    "flash": {
+      "source": "128x128/apps/flash.png",
+      "label": "flash",
+      "aliases": []
+    },
+    "frd": {
+      "source": "128x128/apps/frd.png",
+      "label": "frd",
+      "aliases": []
+    },
+    "fretsonfire": {
+      "source": "128x128/apps/fretsonfire.png",
+      "label": "fretsonfire",
+      "aliases": [
+        "net.sourceforge.fretsonfire"
+      ]
+    },
+    "frontrow": {
+      "source": "128x128/apps/frontrow.png",
+      "label": "frontrow",
+      "aliases": []
+    },
+    "frostwire": {
+      "source": "128x128/apps/frostwire.png",
+      "label": "frostwire",
+      "aliases": []
+    },
+    "fsview": {
+      "source": "128x128/apps/fsview.png",
+      "label": "fsview",
+      "aliases": []
+    },
+    "fyre": {
+      "source": "128x128/apps/fyre.png",
+      "label": "fyre",
+      "aliases": []
+    },
+    "gadu": {
+      "source": "128x128/apps/gadu.png",
+      "label": "gadu",
+      "aliases": []
+    },
+    "gaim": {
+      "source": "128x128/apps/gaim.png",
+      "label": "gaim",
+      "aliases": []
+    },
+    "gaim2": {
+      "source": "128x128/apps/gaim2.png",
+      "label": "gaim2",
+      "aliases": []
+    },
+    "gaimphone": {
+      "source": "128x128/apps/gaimphone.png",
+      "label": "gaimphone",
+      "aliases": []
+    },
+    "gajim": {
+      "source": "128x128/apps/gajim.png",
+      "label": "gajim",
+      "aliases": [
+        "org.gajim.Gajim"
+      ]
+    },
+    "galeon": {
+      "source": "128x128/apps/galeon.png",
+      "label": "galeon",
+      "aliases": []
+    },
+    "galternatives": {
+      "source": "128x128/apps/galternatives.png",
+      "label": "galternatives",
+      "aliases": []
+    },
+    "gazpacho": {
+      "source": "128x128/apps/gazpacho.png",
+      "label": "gazpacho",
+      "aliases": []
+    },
+    "gcrontab": {
+      "source": "128x128/apps/gcrontab.png",
+      "label": "gcrontab",
+      "aliases": []
+    },
+    "gddccontrol": {
+      "source": "128x128/apps/gddccontrol.png",
+      "label": "gddccontrol",
+      "aliases": []
+    },
+    "gdebi-gtk": {
+      "source": "128x128/apps/gdebi-gtk.png",
+      "label": "gdebi-gtk",
+      "aliases": []
+    },
+    "gdebi": {
+      "source": "128x128/apps/gdebi.png",
+      "label": "gdebi",
+      "aliases": []
+    },
+    "gdesklets": {
+      "source": "128x128/apps/gdesklets.png",
+      "label": "gdesklets",
+      "aliases": []
+    },
+    "gdm-setup": {
+      "source": "128x128/apps/gdm-setup.png",
+      "label": "gdm-setup",
+      "aliases": [
+        "gdm",
+        "gdm-xnest",
+        "gdmflexiserver",
+        "gdmsetup"
+      ]
+    },
+    "gdmphotosetup": {
+      "source": "128x128/apps/gdmphotosetup.png",
+      "label": "gdmphotosetup",
+      "aliases": []
+    },
+    "geany": {
+      "source": "128x128/apps/geany.png",
+      "label": "geany",
+      "aliases": [
+        "org.geany.Geany"
+      ]
+    },
+    "gens": {
+      "source": "128x128/apps/gens.png",
+      "label": "gens",
+      "aliases": []
+    },
+    "gentoo": {
+      "source": "128x128/apps/gentoo.png",
+      "label": "gentoo",
+      "aliases": []
+    },
+    "geonext": {
+      "source": "128x128/apps/geonext.png",
+      "label": "geonext",
+      "aliases": []
+    },
+    "gftp": {
+      "source": "128x128/apps/gftp.png",
+      "label": "gftp",
+      "aliases": []
+    },
+    "ghb": {
+      "source": "128x128/apps/ghb.png",
+      "label": "ghb",
+      "aliases": []
+    },
+    "ghostview": {
+      "source": "128x128/apps/ghostview.png",
+      "label": "ghostview",
+      "aliases": []
+    },
+    "gimp-2.6": {
+      "source": "128x128/apps/gimp-2.6.png",
+      "label": "gimp-2.6",
+      "aliases": [
+        "gimp-2.7",
+        "gimp-2.8"
+      ]
+    },
+    "gimp2": {
+      "source": "128x128/apps/gimp2.png",
+      "label": "gimp2",
+      "aliases": []
+    },
+    "gkrellm": {
+      "source": "128x128/apps/gkrellm.png",
+      "label": "gkrellm",
+      "aliases": []
+    },
+    "gkrellm2": {
+      "source": "128x128/apps/gkrellm2.png",
+      "label": "gkrellm2",
+      "aliases": []
+    },
+    "gksu-root-terminal": {
+      "source": "128x128/apps/gksu-root-terminal.png",
+      "label": "gksu-root-terminal",
+      "aliases": []
+    },
+    "gl117": {
+      "source": "128x128/apps/gl117.png",
+      "label": "gl117",
+      "aliases": []
+    },
+    "glabels": {
+      "source": "128x128/apps/glabels.png",
+      "label": "glabels",
+      "aliases": []
+    },
+    "glade-2": {
+      "source": "128x128/apps/glade-2.png",
+      "label": "glade-2",
+      "aliases": [
+        "glade"
+      ]
+    },
+    "glade-3": {
+      "source": "128x128/apps/glade-3.png",
+      "label": "glade-3",
+      "aliases": []
+    },
+    "glest": {
+      "source": "128x128/apps/glest.png",
+      "label": "glest",
+      "aliases": []
+    },
+    "glipper": {
+      "source": "128x128/apps/glipper.png",
+      "label": "glipper",
+      "aliases": []
+    },
+    "glob2-icon-48": {
+      "source": "128x128/apps/glob2-icon-48.png",
+      "label": "glob2-icon-48",
+      "aliases": []
+    },
+    "gmameui": {
+      "source": "128x128/apps/gmameui.png",
+      "label": "gmameui",
+      "aliases": []
+    },
+    "gmplayer": {
+      "source": "128x128/apps/gmplayer.png",
+      "label": "gmplayer",
+      "aliases": []
+    },
+    "gnapster": {
+      "source": "128x128/apps/gnapster.png",
+      "label": "gnapster",
+      "aliases": []
+    },
+    "gngeo": {
+      "source": "128x128/apps/gngeo.png",
+      "label": "gngeo",
+      "aliases": []
+    },
+    "gnobots2": {
+      "source": "128x128/apps/gnobots2.png",
+      "label": "gnobots2",
+      "aliases": []
+    },
+    "gnomad2-logo": {
+      "source": "128x128/apps/gnomad2-logo.png",
+      "label": "gnomad2-logo",
+      "aliases": []
+    },
+    "gnome-about-logo": {
+      "source": "128x128/apps/gnome-about-logo.png",
+      "label": "gnome-about-logo",
+      "aliases": []
+    },
+    "gnome-accessibility-keyboard": {
+      "source": "128x128/apps/gnome-accessibility-keyboard.png",
+      "label": "gnome-accessibility-keyboard",
+      "aliases": []
+    },
+    "gnome-aisleriot": {
+      "source": "128x128/apps/gnome-aisleriot.png",
+      "label": "gnome-aisleriot",
+      "aliases": []
+    },
+    "gnome-applets": {
+      "source": "128x128/apps/gnome-applets.png",
+      "label": "gnome-applets",
+      "aliases": [
+        "panel",
+        "panel-drawer"
+      ]
+    },
+    "gnome-applications": {
+      "source": "128x128/apps/gnome-applications.png",
+      "label": "gnome-applications",
+      "aliases": []
+    },
+    "gnome-audio": {
+      "source": "128x128/apps/gnome-audio.png",
+      "label": "gnome-audio",
+      "aliases": []
+    },
+    "gnome-blackjack": {
+      "source": "128x128/apps/gnome-blackjack.png",
+      "label": "gnome-blackjack",
+      "aliases": []
+    },
+    "gnome-blog": {
+      "source": "128x128/apps/gnome-blog.png",
+      "label": "gnome-blog",
+      "aliases": []
+    },
+    "gnome-btdownload": {
+      "source": "128x128/apps/gnome-btdownload.png",
+      "label": "gnome-btdownload",
+      "aliases": []
+    },
+    "gnome-cd": {
+      "source": "128x128/apps/gnome-cd.png",
+      "label": "gnome-cd",
+      "aliases": []
+    },
+    "gnome-character-map": {
+      "source": "128x128/apps/gnome-character-map.png",
+      "label": "gnome-character-map",
+      "aliases": []
+    },
+    "gnome-color-chooser": {
+      "source": "128x128/apps/gnome-color-chooser.png",
+      "label": "gnome-color-chooser",
+      "aliases": []
+    },
+    "gnome-commander": {
+      "source": "128x128/apps/gnome-commander.png",
+      "label": "gnome-commander",
+      "aliases": []
+    },
+    "gnome-cpu": {
+      "source": "128x128/apps/gnome-cpu.png",
+      "label": "gnome-cpu",
+      "aliases": []
+    },
+    "gnome-db": {
+      "source": "128x128/apps/gnome-db.png",
+      "label": "gnome-db",
+      "aliases": []
+    },
+    "gnome-default-printer": {
+      "source": "128x128/apps/gnome-default-printer.png",
+      "label": "gnome-default-printer",
+      "aliases": []
+    },
+    "gnome-devel": {
+      "source": "128x128/apps/gnome-devel.png",
+      "label": "gnome-devel",
+      "aliases": []
+    },
+    "gnome-device-manager": {
+      "source": "128x128/apps/gnome-device-manager.png",
+      "label": "gnome-device-manager",
+      "aliases": []
+    },
+    "gnome-dictionary": {
+      "source": "128x128/apps/gnome-dictionary.png",
+      "label": "gnome-dictionary",
+      "aliases": []
+    },
+    "gnome-display-properties": {
+      "source": "128x128/apps/gnome-display-properties.png",
+      "label": "gnome-display-properties",
+      "aliases": []
+    },
+    "gnome-eyes": {
+      "source": "128x128/apps/gnome-eyes.png",
+      "label": "gnome-eyes",
+      "aliases": []
+    },
+    "gnome-favorites": {
+      "source": "128x128/apps/gnome-favorites.png",
+      "label": "gnome-favorites",
+      "aliases": []
+    },
+    "gnome-fish": {
+      "source": "128x128/apps/gnome-fish.png",
+      "label": "gnome-fish",
+      "aliases": []
+    },
+    "gnome-fs-client": {
+      "source": "128x128/apps/gnome-fs-client.png",
+      "label": "gnome-fs-client",
+      "aliases": []
+    },
+    "gnome-fs-network": {
+      "source": "128x128/apps/gnome-fs-network.png",
+      "label": "gnome-fs-network",
+      "aliases": []
+    },
+    "gnome-fs-server": {
+      "source": "128x128/apps/gnome-fs-server.png",
+      "label": "gnome-fs-server",
+      "aliases": [
+        "system-config-services"
+      ]
+    },
+    "gnome-fs-share": {
+      "source": "128x128/apps/gnome-fs-share.png",
+      "label": "gnome-fs-share",
+      "aliases": []
+    },
+    "gnome-gegl": {
+      "source": "128x128/apps/gnome-gegl.png",
+      "label": "gnome-gegl",
+      "aliases": []
+    },
+    "gnome-gimp": {
+      "source": "128x128/apps/gnome-gimp.png",
+      "label": "gnome-gimp",
+      "aliases": []
+    },
+    "gnome-glchess": {
+      "source": "128x128/apps/gnome-glchess.png",
+      "label": "gnome-glchess",
+      "aliases": []
+    },
+    "gnome-graphics": {
+      "source": "128x128/apps/gnome-graphics.png",
+      "label": "gnome-graphics",
+      "aliases": []
+    },
+    "gnome-grecord": {
+      "source": "128x128/apps/gnome-grecord.png",
+      "label": "gnome-grecord",
+      "aliases": []
+    },
+    "gnome-iagno": {
+      "source": "128x128/apps/gnome-iagno.png",
+      "label": "gnome-iagno",
+      "aliases": []
+    },
+    "gnome-joystick": {
+      "source": "128x128/apps/gnome-joystick.png",
+      "label": "gnome-joystick",
+      "aliases": []
+    },
+    "gnome-keybinding-properties": {
+      "source": "128x128/apps/gnome-keybinding-properties.png",
+      "label": "gnome-keybinding-properties",
+      "aliases": []
+    },
+    "gnome-klotski": {
+      "source": "128x128/apps/gnome-klotski.png",
+      "label": "gnome-klotski",
+      "aliases": []
+    },
+    "gnome-laptop": {
+      "source": "128x128/apps/gnome-laptop.png",
+      "label": "gnome-laptop",
+      "aliases": []
+    },
+    "gnome-lockscreen": {
+      "source": "128x128/apps/gnome-lockscreen.png",
+      "label": "gnome-lockscreen",
+      "aliases": []
+    },
+    "gnome-logo-icon-transparent": {
+      "source": "128x128/apps/gnome-logo-icon-transparent.png",
+      "label": "gnome-logo-icon-transparent",
+      "aliases": []
+    },
+    "gnome-logo-icon": {
+      "source": "128x128/apps/gnome-logo-icon.png",
+      "label": "gnome-logo-icon",
+      "aliases": []
+    },
+    "gnome-logout": {
+      "source": "128x128/apps/gnome-logout.png",
+      "label": "gnome-logout",
+      "aliases": []
+    },
+    "gnome-mahjongg": {
+      "source": "128x128/apps/gnome-mahjongg.png",
+      "label": "gnome-mahjongg",
+      "aliases": []
+    },
+    "gnome-main-menu": {
+      "source": "128x128/apps/gnome-main-menu.png",
+      "label": "gnome-main-menu",
+      "aliases": []
+    },
+    "gnome-mime-application-pdf": {
+      "source": "128x128/apps/gnome-mime-application-pdf.png",
+      "label": "gnome-mime-application-pdf",
+      "aliases": []
+    },
+    "gnome-mines": {
+      "source": "128x128/apps/gnome-mines.png",
+      "label": "gnome-mines",
+      "aliases": []
+    },
+    "gnome-mini-commander": {
+      "source": "128x128/apps/gnome-mini-commander.png",
+      "label": "gnome-mini-commander",
+      "aliases": []
+    },
+    "gnome-modem": {
+      "source": "128x128/apps/gnome-modem.png",
+      "label": "gnome-modem",
+      "aliases": [
+        "gnome-ppp"
+      ]
+    },
+    "gnome-monitor": {
+      "source": "128x128/apps/gnome-monitor.png",
+      "label": "gnome-monitor",
+      "aliases": []
+    },
+    "gnome-mplayer": {
+      "source": "128x128/apps/gnome-mplayer.png",
+      "label": "gnome-mplayer",
+      "aliases": []
+    },
+    "gnome-multimedia": {
+      "source": "128x128/apps/gnome-multimedia.png",
+      "label": "gnome-multimedia",
+      "aliases": []
+    },
+    "gnome-nettool": {
+      "source": "128x128/apps/gnome-nettool.png",
+      "label": "gnome-nettool",
+      "aliases": []
+    },
+    "gnome-network-preferences": {
+      "source": "128x128/apps/gnome-network-preferences.png",
+      "label": "gnome-network-preferences",
+      "aliases": []
+    },
+    "gnome-network-properties": {
+      "source": "128x128/apps/gnome-network-properties.png",
+      "label": "gnome-network-properties",
+      "aliases": []
+    },
+    "gnome-networktool": {
+      "source": "128x128/apps/gnome-networktool.png",
+      "label": "gnome-networktool",
+      "aliases": []
+    },
+    "gnome-other": {
+      "source": "128x128/apps/gnome-other.png",
+      "label": "gnome-other",
+      "aliases": []
+    },
+    "gnome-palm": {
+      "source": "128x128/apps/gnome-palm.png",
+      "label": "gnome-palm",
+      "aliases": []
+    },
+    "gnome-panel-force-quit": {
+      "source": "128x128/apps/gnome-panel-force-quit.png",
+      "label": "gnome-panel-force-quit",
+      "aliases": []
+    },
+    "gnome-panel-launcher": {
+      "source": "128x128/apps/gnome-panel-launcher.png",
+      "label": "gnome-panel-launcher",
+      "aliases": []
+    },
+    "gnome-panel": {
+      "source": "128x128/apps/gnome-panel.png",
+      "label": "gnome-panel",
+      "aliases": []
+    },
+    "gnome-pdf": {
+      "source": "128x128/apps/gnome-pdf.png",
+      "label": "gnome-pdf",
+      "aliases": []
+    },
+    "gnome-pilot": {
+      "source": "128x128/apps/gnome-pilot.png",
+      "label": "gnome-pilot",
+      "aliases": [
+        "gnome-pilot2"
+      ]
+    },
+    "gnome-radio": {
+      "source": "128x128/apps/gnome-radio.png",
+      "label": "gnome-radio",
+      "aliases": []
+    },
+    "gnome-run": {
+      "source": "128x128/apps/gnome-run.png",
+      "label": "gnome-run",
+      "aliases": []
+    },
+    "gnome-samegnome": {
+      "source": "128x128/apps/gnome-samegnome.png",
+      "label": "gnome-samegnome",
+      "aliases": []
+    },
+    "gnome-session-halt": {
+      "source": "128x128/apps/gnome-session-halt.png",
+      "label": "gnome-session-halt",
+      "aliases": []
+    },
+    "gnome-session-hibernate": {
+      "source": "128x128/apps/gnome-session-hibernate.png",
+      "label": "gnome-session-hibernate",
+      "aliases": []
+    },
+    "gnome-session-hibernate1": {
+      "source": "128x128/apps/gnome-session-hibernate1.png",
+      "label": "gnome-session-hibernate1",
+      "aliases": []
+    },
+    "gnome-session-logout": {
+      "source": "128x128/apps/gnome-session-logout.png",
+      "label": "gnome-session-logout",
+      "aliases": [
+        "system-config-securitylevel",
+        "xfsm-logout"
+      ]
+    },
+    "gnome-session-reboot": {
+      "source": "128x128/apps/gnome-session-reboot.png",
+      "label": "gnome-session-reboot",
+      "aliases": []
+    },
+    "gnome-session-reboot1": {
+      "source": "128x128/apps/gnome-session-reboot1.png",
+      "label": "gnome-session-reboot1",
+      "aliases": []
+    },
+    "gnome-session-suspend": {
+      "source": "128x128/apps/gnome-session-suspend.png",
+      "label": "gnome-session-suspend",
+      "aliases": []
+    },
+    "gnome-session-switch": {
+      "source": "128x128/apps/gnome-session-switch.png",
+      "label": "gnome-session-switch",
+      "aliases": []
+    },
+    "gnome-session": {
+      "source": "128x128/apps/gnome-session.png",
+      "label": "gnome-session",
+      "aliases": [
+        "preferences-system-session"
+      ]
+    },
+    "gnome-setting": {
+      "source": "128x128/apps/gnome-setting.png",
+      "label": "gnome-setting",
+      "aliases": []
+    },
+    "gnome-settings-accessibility-keyboard": {
+      "source": "128x128/apps/gnome-settings-accessibility-keyboard.png",
+      "label": "gnome-settings-accessibility-keyboard",
+      "aliases": []
+    },
+    "gnome-settings-default-applications": {
+      "source": "128x128/apps/gnome-settings-default-applications.png",
+      "label": "gnome-settings-default-applications",
+      "aliases": []
+    },
+    "gnome-settings-font": {
+      "source": "128x128/apps/gnome-settings-font.png",
+      "label": "gnome-settings-font",
+      "aliases": []
+    },
+    "gnome-settings-keybindings": {
+      "source": "128x128/apps/gnome-settings-keybindings.png",
+      "label": "gnome-settings-keybindings",
+      "aliases": [
+        "preferences-desktop-keyboard-shortcuts"
+      ]
+    },
+    "gnome-settings-sound": {
+      "source": "128x128/apps/gnome-settings-sound.png",
+      "label": "gnome-settings-sound",
+      "aliases": [
+        "preferences-desktop-sound",
+        "xfce-sound"
+      ]
+    },
+    "gnome-settings-theme": {
+      "source": "128x128/apps/gnome-settings-theme.png",
+      "label": "gnome-settings-theme",
+      "aliases": []
+    },
+    "gnome-settings-ui-behavior": {
+      "source": "128x128/apps/gnome-settings-ui-behavior.png",
+      "label": "gnome-settings-ui-behavior",
+      "aliases": []
+    },
+    "gnome-shudown": {
+      "source": "128x128/apps/gnome-shudown.png",
+      "label": "gnome-shudown",
+      "aliases": []
+    },
+    "gnome-sound-properties": {
+      "source": "128x128/apps/gnome-sound-properties.png",
+      "label": "gnome-sound-properties",
+      "aliases": [
+        "gnome-volume-control"
+      ]
+    },
+    "gnome-sound-recorder": {
+      "source": "128x128/apps/gnome-sound-recorder.png",
+      "label": "gnome-sound-recorder",
+      "aliases": []
+    },
+    "gnome-status": {
+      "source": "128x128/apps/gnome-status.png",
+      "label": "gnome-status",
+      "aliases": []
+    },
+    "gnome-sudoku": {
+      "source": "128x128/apps/gnome-sudoku.png",
+      "label": "gnome-sudoku",
+      "aliases": []
+    },
+    "gnome-system-config": {
+      "source": "128x128/apps/gnome-system-config.png",
+      "label": "gnome-system-config",
+      "aliases": []
+    },
+    "gnome-system": {
+      "source": "128x128/apps/gnome-system.png",
+      "label": "gnome-system",
+      "aliases": []
+    },
+    "gnome-tetravex": {
+      "source": "128x128/apps/gnome-tetravex.png",
+      "label": "gnome-tetravex",
+      "aliases": []
+    },
+    "gnome-unknown": {
+      "source": "128x128/apps/gnome-unknown.png",
+      "label": "gnome-unknown",
+      "aliases": []
+    },
+    "gnome-util": {
+      "source": "128x128/apps/gnome-util.png",
+      "label": "gnome-util",
+      "aliases": []
+    },
+    "gnome-web-browser": {
+      "source": "128x128/apps/gnome-web-browser.png",
+      "label": "gnome-web-browser",
+      "aliases": []
+    },
+    "gnome-window-manager": {
+      "source": "128x128/apps/gnome-window-manager.png",
+      "label": "gnome-window-manager",
+      "aliases": []
+    },
+    "gnome-workspace": {
+      "source": "128x128/apps/gnome-workspace.png",
+      "label": "gnome-workspace",
+      "aliases": []
+    },
+    "gnome_chess": {
+      "source": "128x128/apps/gnome_chess.png",
+      "label": "gnome_chess",
+      "aliases": []
+    },
+    "gnomebaker": {
+      "source": "128x128/apps/gnomebaker.png",
+      "label": "gnomebaker",
+      "aliases": []
+    },
+    "gnomemeeting": {
+      "source": "128x128/apps/gnomemeeting.png",
+      "label": "gnomemeeting",
+      "aliases": []
+    },
+    "gnometris": {
+      "source": "128x128/apps/gnometris.png",
+      "label": "gnometris",
+      "aliases": []
+    },
+    "gnormalize": {
+      "source": "128x128/apps/gnormalize.png",
+      "label": "gnormalize",
+      "aliases": []
+    },
+    "gnucash": {
+      "source": "128x128/apps/gnucash.png",
+      "label": "gnucash",
+      "aliases": [
+        "org.gnucash.GnuCash"
+      ]
+    },
+    "gnumeric": {
+      "source": "128x128/apps/gnumeric.png",
+      "label": "gnumeric",
+      "aliases": []
+    },
+    "go": {
+      "source": "128x128/apps/go.png",
+      "label": "go",
+      "aliases": [
+        "go_kde"
+      ]
+    },
+    "go_kde_cool": {
+      "source": "128x128/apps/go_kde_cool.png",
+      "label": "go_kde_cool",
+      "aliases": []
+    },
+    "go_kde_old_cool": {
+      "source": "128x128/apps/go_kde_old_cool.png",
+      "label": "go_kde_old_cool",
+      "aliases": []
+    },
+    "google-earth": {
+      "source": "128x128/apps/google-earth.png",
+      "label": "google-earth",
+      "aliases": [
+        "googleearth",
+        "googleearth-icon"
+      ]
+    },
+    "gpg": {
+      "source": "128x128/apps/gpg.png",
+      "label": "gpg",
+      "aliases": [
+        "gpgsm"
+      ]
+    },
+    "gpm-statistics": {
+      "source": "128x128/apps/gpm-statistics.png",
+      "label": "gpm-statistics",
+      "aliases": []
+    },
+    "gprename": {
+      "source": "128x128/apps/gprename.png",
+      "label": "gprename",
+      "aliases": []
+    },
+    "gqview": {
+      "source": "128x128/apps/gqview.png",
+      "label": "gqview",
+      "aliases": []
+    },
+    "graveman": {
+      "source": "128x128/apps/graveman.png",
+      "label": "graveman",
+      "aliases": []
+    },
+    "gridwars": {
+      "source": "128x128/apps/gridwars.png",
+      "label": "gridwars",
+      "aliases": []
+    },
+    "gstreamer-properties": {
+      "source": "128x128/apps/gstreamer-properties.png",
+      "label": "gstreamer-properties",
+      "aliases": []
+    },
+    "gtk-execute": {
+      "source": "128x128/apps/gtk-execute.png",
+      "label": "gtk-execute",
+      "aliases": []
+    },
+    "gtk-gnutella": {
+      "source": "128x128/apps/gtk-gnutella.png",
+      "label": "gtk-gnutella",
+      "aliases": []
+    },
+    "gtkam": {
+      "source": "128x128/apps/gtkam.png",
+      "label": "gtkam",
+      "aliases": []
+    },
+    "gtkorphan": {
+      "source": "128x128/apps/gtkorphan.png",
+      "label": "gtkorphan",
+      "aliases": []
+    },
+    "gtranslator": {
+      "source": "128x128/apps/gtranslator.png",
+      "label": "gtranslator",
+      "aliases": []
+    },
+    "gtweakui": {
+      "source": "128x128/apps/gtweakui.png",
+      "label": "gtweakui",
+      "aliases": []
+    },
+    "gucharmap": {
+      "source": "128x128/apps/gucharmap.png",
+      "label": "gucharmap",
+      "aliases": []
+    },
+    "gv": {
+      "source": "128x128/apps/gv.png",
+      "label": "gv",
+      "aliases": []
+    },
+    "gwget": {
+      "source": "128x128/apps/gwget.png",
+      "label": "gwget",
+      "aliases": []
+    },
+    "gworldclock": {
+      "source": "128x128/apps/gworldclock.png",
+      "label": "gworldclock",
+      "aliases": []
+    },
+    "gxine": {
+      "source": "128x128/apps/gxine.png",
+      "label": "gxine",
+      "aliases": [
+        "media-player-48",
+        "muine",
+        "ogle",
+        "video",
+        "xine"
+      ]
+    },
+    "gxmame": {
+      "source": "128x128/apps/gxmame.png",
+      "label": "gxmame",
+      "aliases": []
+    },
+    "handbrake": {
+      "source": "128x128/apps/handbrake.png",
+      "label": "handbrake",
+      "aliases": []
+    },
+    "harddrive": {
+      "source": "128x128/apps/harddrive.png",
+      "label": "harddrive",
+      "aliases": []
+    },
+    "hardware": {
+      "source": "128x128/apps/hardware.png",
+      "label": "hardware",
+      "aliases": []
+    },
+    "help_index": {
+      "source": "128x128/apps/help_index.png",
+      "label": "help_index",
+      "aliases": []
+    },
+    "home": {
+      "source": "128x128/apps/home.png",
+      "label": "home",
+      "aliases": []
+    },
+    "homebank": {
+      "source": "128x128/apps/homebank.png",
+      "label": "homebank",
+      "aliases": [
+        "fr.free.Homebank"
+      ]
+    },
+    "hp-logo": {
+      "source": "128x128/apps/hp-logo.png",
+      "label": "hp-logo",
+      "aliases": [
+        "hplip"
+      ],
+      "desktop_files": [
+        "hplip.desktop"
+      ]
+    },
+    "hwinfo": {
+      "source": "128x128/apps/hwinfo.png",
+      "label": "hwinfo",
+      "aliases": []
+    },
+    "hwtest-gtk": {
+      "source": "128x128/apps/hwtest-gtk.png",
+      "label": "hwtest-gtk",
+      "aliases": []
+    },
+    "hxplay": {
+      "source": "128x128/apps/hxplay.png",
+      "label": "hxplay",
+      "aliases": []
+    },
+    "hydrogen": {
+      "source": "128x128/apps/hydrogen.png",
+      "label": "hydrogen",
+      "aliases": [
+        "org.hydrogenmusic.Hydrogen"
+      ]
+    },
+    "icons": {
+      "source": "128x128/apps/icons.png",
+      "label": "icons",
+      "aliases": []
+    },
+    "iconthemes": {
+      "source": "128x128/apps/iconthemes.png",
+      "label": "iconthemes",
+      "aliases": []
+    },
+    "ifolder": {
+      "source": "128x128/apps/ifolder.png",
+      "label": "ifolder",
+      "aliases": []
+    },
+    "image-viewer": {
+      "source": "128x128/apps/image-viewer.png",
+      "label": "image-viewer",
+      "aliases": []
+    },
+    "input_devices_settings": {
+      "source": "128x128/apps/input_devices_settings.png",
+      "label": "input_devices_settings",
+      "aliases": []
+    },
+    "irc": {
+      "source": "128x128/apps/irc.png",
+      "label": "irc",
+      "aliases": []
+    },
+    "irkick": {
+      "source": "128x128/apps/irkick.png",
+      "label": "irkick",
+      "aliases": []
+    },
+    "java": {
+      "source": "128x128/apps/java.png",
+      "label": "java",
+      "aliases": [
+        "java-java-openjdk",
+        "java27-openjdk",
+        "jconsole-java-openjdk",
+        "jshell-java-openjdk",
+        "policytool"
+      ]
+    },
+    "jockey": {
+      "source": "128x128/apps/jockey.png",
+      "label": "jockey",
+      "aliases": []
+    },
+    "jokosher": {
+      "source": "128x128/apps/jokosher.png",
+      "label": "jokosher",
+      "aliases": []
+    },
+    "juk": {
+      "source": "128x128/apps/juk.png",
+      "label": "juk",
+      "aliases": [
+        "juk_docked",
+        "org.kde.juk"
+      ]
+    },
+    "k3b": {
+      "source": "128x128/apps/k3b.png",
+      "label": "k3b",
+      "aliases": []
+    },
+    "k3b_2": {
+      "source": "128x128/apps/k3b_2.png",
+      "label": "k3b_2",
+      "aliases": []
+    },
+    "kaboodle": {
+      "source": "128x128/apps/kaboodle.png",
+      "label": "kaboodle",
+      "aliases": []
+    },
+    "kaddressbook": {
+      "source": "128x128/apps/kaddressbook.png",
+      "label": "kaddressbook",
+      "aliases": []
+    },
+    "kaddressbook_4": {
+      "source": "128x128/apps/kaddressbook_4.png",
+      "label": "kaddressbook_4",
+      "aliases": []
+    },
+    "kaffeine": {
+      "source": "128x128/apps/kaffeine.png",
+      "label": "kaffeine",
+      "aliases": [
+        "org.kde.kaffeine"
+      ]
+    },
+    "kaffeine_2": {
+      "source": "128x128/apps/kaffeine_2.png",
+      "label": "kaffeine_2",
+      "aliases": []
+    },
+    "kalarm": {
+      "source": "128x128/apps/kalarm.png",
+      "label": "kalarm",
+      "aliases": []
+    },
+    "karbon": {
+      "source": "128x128/apps/karbon.png",
+      "label": "karbon",
+      "aliases": []
+    },
+    "karm": {
+      "source": "128x128/apps/karm.png",
+      "label": "karm",
+      "aliases": []
+    },
+    "kasteroids": {
+      "source": "128x128/apps/kasteroids.png",
+      "label": "kasteroids",
+      "aliases": []
+    },
+    "kate": {
+      "source": "128x128/apps/kate.png",
+      "label": "kate",
+      "aliases": [
+        "org.kde.kate"
+      ]
+    },
+    "kate2": {
+      "source": "128x128/apps/kate2.png",
+      "label": "kate2",
+      "aliases": []
+    },
+    "katomic": {
+      "source": "128x128/apps/katomic.png",
+      "label": "katomic",
+      "aliases": [
+        "org.kde.katomic"
+      ]
+    },
+    "katuberling": {
+      "source": "128x128/apps/katuberling.png",
+      "label": "katuberling",
+      "aliases": []
+    },
+    "kaudiocreator": {
+      "source": "128x128/apps/kaudiocreator.png",
+      "label": "kaudiocreator",
+      "aliases": []
+    },
+    "kbackgammon": {
+      "source": "128x128/apps/kbackgammon.png",
+      "label": "kbackgammon",
+      "aliases": []
+    },
+    "kbackgammon_engine": {
+      "source": "128x128/apps/kbackgammon_engine.png",
+      "label": "kbackgammon_engine",
+      "aliases": []
+    },
+    "kbattleship": {
+      "source": "128x128/apps/kbattleship.png",
+      "label": "kbattleship",
+      "aliases": []
+    },
+    "kblackbox": {
+      "source": "128x128/apps/kblackbox.png",
+      "label": "kblackbox",
+      "aliases": [
+        "org.kde.kblackbox"
+      ]
+    },
+    "kbounce": {
+      "source": "128x128/apps/kbounce.png",
+      "label": "kbounce",
+      "aliases": [
+        "org.kde.kbounce"
+      ]
+    },
+    "kbruch": {
+      "source": "128x128/apps/kbruch.png",
+      "label": "kbruch",
+      "aliases": [
+        "org.kde.kbruch"
+      ]
+    },
+    "kcharselect": {
+      "source": "128x128/apps/kcharselect.png",
+      "label": "kcharselect",
+      "aliases": [
+        "org.kde.kcharselect"
+      ]
+    },
+    "kcharselect1": {
+      "source": "128x128/apps/kcharselect1.png",
+      "label": "kcharselect1",
+      "aliases": []
+    },
+    "kchart": {
+      "source": "128x128/apps/kchart.png",
+      "label": "kchart",
+      "aliases": []
+    },
+    "kchess": {
+      "source": "128x128/apps/kchess.png",
+      "label": "kchess",
+      "aliases": []
+    },
+    "kchess2": {
+      "source": "128x128/apps/kchess2.png",
+      "label": "kchess2",
+      "aliases": []
+    },
+    "kcmdevices": {
+      "source": "128x128/apps/kcmdevices.png",
+      "label": "kcmdevices",
+      "aliases": []
+    },
+    "kcmdf": {
+      "source": "128x128/apps/kcmdf.png",
+      "label": "kcmdf",
+      "aliases": []
+    },
+    "kcmdrkonqi": {
+      "source": "128x128/apps/kcmdrkonqi.png",
+      "label": "kcmdrkonqi",
+      "aliases": []
+    },
+    "kcmkicker": {
+      "source": "128x128/apps/kcmkicker.png",
+      "label": "kcmkicker",
+      "aliases": []
+    },
+    "kcmkwm": {
+      "source": "128x128/apps/kcmkwm.png",
+      "label": "kcmkwm",
+      "aliases": []
+    },
+    "kcmmemory": {
+      "source": "128x128/apps/kcmmemory.png",
+      "label": "kcmmemory",
+      "aliases": []
+    },
+    "kcmmidi": {
+      "source": "128x128/apps/kcmmidi.png",
+      "label": "kcmmidi",
+      "aliases": []
+    },
+    "kcmpartitions": {
+      "source": "128x128/apps/kcmpartitions.png",
+      "label": "kcmpartitions",
+      "aliases": []
+    },
+    "kcmpci": {
+      "source": "128x128/apps/kcmpci.png",
+      "label": "kcmpci",
+      "aliases": []
+    },
+    "kcmprocessor": {
+      "source": "128x128/apps/kcmprocessor.png",
+      "label": "kcmprocessor",
+      "aliases": []
+    },
+    "kcmsambaconf": {
+      "source": "128x128/apps/kcmsambaconf.png",
+      "label": "kcmsambaconf",
+      "aliases": []
+    },
+    "kcmscsi": {
+      "source": "128x128/apps/kcmscsi.png",
+      "label": "kcmscsi",
+      "aliases": []
+    },
+    "kcmsound": {
+      "source": "128x128/apps/kcmsound.png",
+      "label": "kcmsound",
+      "aliases": []
+    },
+    "kcmsystem": {
+      "source": "128x128/apps/kcmsystem.png",
+      "label": "kcmsystem",
+      "aliases": []
+    },
+    "kcmx": {
+      "source": "128x128/apps/kcmx.png",
+      "label": "kcmx",
+      "aliases": []
+    },
+    "kcolorchooser": {
+      "source": "128x128/apps/kcolorchooser.png",
+      "label": "kcolorchooser",
+      "aliases": [
+        "org.kde.kcolorchooser"
+      ]
+    },
+    "kcontrol": {
+      "source": "128x128/apps/kcontrol.png",
+      "label": "kcontrol",
+      "aliases": []
+    },
+    "kdefax": {
+      "source": "128x128/apps/kdefax.png",
+      "label": "kdefax",
+      "aliases": []
+    },
+    "kdeprintfax": {
+      "source": "128x128/apps/kdeprintfax.png",
+      "label": "kdeprintfax",
+      "aliases": []
+    },
+    "kdf": {
+      "source": "128x128/apps/kdf.png",
+      "label": "kdf",
+      "aliases": []
+    },
+    "kdict": {
+      "source": "128x128/apps/kdict.png",
+      "label": "kdict",
+      "aliases": []
+    },
+    "kdisknav": {
+      "source": "128x128/apps/kdisknav.png",
+      "label": "kdisknav",
+      "aliases": []
+    },
+    "kdmconfig": {
+      "source": "128x128/apps/kdmconfig.png",
+      "label": "kdmconfig",
+      "aliases": []
+    },
+    "kdvi": {
+      "source": "128x128/apps/kdvi.png",
+      "label": "kdvi",
+      "aliases": []
+    },
+    "kedit": {
+      "source": "128x128/apps/kedit.png",
+      "label": "kedit",
+      "aliases": []
+    },
+    "keditbookmarks": {
+      "source": "128x128/apps/keditbookmarks.png",
+      "label": "keditbookmarks",
+      "aliases": []
+    },
+    "kenolaba": {
+      "source": "128x128/apps/kenolaba.png",
+      "label": "kenolaba",
+      "aliases": []
+    },
+    "kexi": {
+      "source": "128x128/apps/kexi.png",
+      "label": "kexi",
+      "aliases": []
+    },
+    "key_bindings": {
+      "source": "128x128/apps/key_bindings.png",
+      "label": "key_bindings",
+      "aliases": []
+    },
+    "kfaxview": {
+      "source": "128x128/apps/kfaxview.png",
+      "label": "kfaxview",
+      "aliases": []
+    },
+    "kfind": {
+      "source": "128x128/apps/kfind.png",
+      "label": "kfind",
+      "aliases": [
+        "org.kde.kfind"
+      ]
+    },
+    "kfloppy": {
+      "source": "128x128/apps/kfloppy.png",
+      "label": "kfloppy",
+      "aliases": []
+    },
+    "kfm": {
+      "source": "128x128/apps/kfm.png",
+      "label": "kfm",
+      "aliases": []
+    },
+    "kfm_home": {
+      "source": "128x128/apps/kfm_home.png",
+      "label": "kfm_home",
+      "aliases": []
+    },
+    "kfouleggs": {
+      "source": "128x128/apps/kfouleggs.png",
+      "label": "kfouleggs",
+      "aliases": []
+    },
+    "kgamma": {
+      "source": "128x128/apps/kgamma.png",
+      "label": "kgamma",
+      "aliases": []
+    },
+    "kget": {
+      "source": "128x128/apps/kget.png",
+      "label": "kget",
+      "aliases": [
+        "org.kde.kget"
+      ]
+    },
+    "kghostview": {
+      "source": "128x128/apps/kghostview.png",
+      "label": "kghostview",
+      "aliases": []
+    },
+    "kgoldrunner": {
+      "source": "128x128/apps/kgoldrunner.png",
+      "label": "kgoldrunner",
+      "aliases": [
+        "org.kde.kgoldrunner"
+      ]
+    },
+    "kgpg": {
+      "source": "128x128/apps/kgpg.png",
+      "label": "kgpg",
+      "aliases": []
+    },
+    "khexedit": {
+      "source": "128x128/apps/khexedit.png",
+      "label": "khexedit",
+      "aliases": []
+    },
+    "khotkeys": {
+      "source": "128x128/apps/khotkeys.png",
+      "label": "khotkeys",
+      "aliases": []
+    },
+    "kicker": {
+      "source": "128x128/apps/kicker.png",
+      "label": "kicker",
+      "aliases": []
+    },
+    "kiconedit": {
+      "source": "128x128/apps/kiconedit.png",
+      "label": "kiconedit",
+      "aliases": []
+    },
+    "kino": {
+      "source": "128x128/apps/kino.png",
+      "label": "kino",
+      "aliases": []
+    },
+    "kivio": {
+      "source": "128x128/apps/kivio.png",
+      "label": "kivio",
+      "aliases": []
+    },
+    "kjobviewer": {
+      "source": "128x128/apps/kjobviewer.png",
+      "label": "kjobviewer",
+      "aliases": []
+    },
+    "kjots": {
+      "source": "128x128/apps/kjots.png",
+      "label": "kjots",
+      "aliases": []
+    },
+    "kjumpingcube": {
+      "source": "128x128/apps/kjumpingcube.png",
+      "label": "kjumpingcube",
+      "aliases": [
+        "org.kde.kjumpingcube"
+      ]
+    },
+    "klines": {
+      "source": "128x128/apps/klines.png",
+      "label": "klines",
+      "aliases": []
+    },
+    "klipper": {
+      "source": "128x128/apps/klipper.png",
+      "label": "klipper",
+      "aliases": []
+    },
+    "kllckety": {
+      "source": "128x128/apps/kllckety.png",
+      "label": "kllckety",
+      "aliases": []
+    },
+    "kmag": {
+      "source": "128x128/apps/kmag.png",
+      "label": "kmag",
+      "aliases": []
+    },
+    "kmahjongg": {
+      "source": "128x128/apps/kmahjongg.png",
+      "label": "kmahjongg",
+      "aliases": [
+        "org.kde.kmahjongg"
+      ]
+    },
+    "kmail": {
+      "source": "128x128/apps/kmail.png",
+      "label": "kmail",
+      "aliases": []
+    },
+    "kmailcvt": {
+      "source": "128x128/apps/kmailcvt.png",
+      "label": "kmailcvt",
+      "aliases": []
+    },
+    "kmaillight": {
+      "source": "128x128/apps/kmaillight.png",
+      "label": "kmaillight",
+      "aliases": []
+    },
+    "kmenu": {
+      "source": "128x128/apps/kmenu.png",
+      "label": "kmenu",
+      "aliases": []
+    },
+    "kmenu_baghira": {
+      "source": "128x128/apps/kmenu_baghira.png",
+      "label": "kmenu_baghira",
+      "aliases": []
+    },
+    "kmenu_blue_1": {
+      "source": "128x128/apps/kmenu_blue_1.png",
+      "label": "kmenu_blue_1",
+      "aliases": []
+    },
+    "kmenu_debian": {
+      "source": "128x128/apps/kmenu_debian.png",
+      "label": "kmenu_debian",
+      "aliases": []
+    },
+    "kmenu_fedora": {
+      "source": "128x128/apps/kmenu_fedora.png",
+      "label": "kmenu_fedora",
+      "aliases": []
+    },
+    "kmenu_green_1": {
+      "source": "128x128/apps/kmenu_green_1.png",
+      "label": "kmenu_green_1",
+      "aliases": []
+    },
+    "kmenu_happy": {
+      "source": "128x128/apps/kmenu_happy.png",
+      "label": "kmenu_happy",
+      "aliases": []
+    },
+    "kmenu_kde": {
+      "source": "128x128/apps/kmenu_kde.png",
+      "label": "kmenu_kde",
+      "aliases": []
+    },
+    "kmenu_kde_cool": {
+      "source": "128x128/apps/kmenu_kde_cool.png",
+      "label": "kmenu_kde_cool",
+      "aliases": []
+    },
+    "kmenu_kde_old": {
+      "source": "128x128/apps/kmenu_kde_old.png",
+      "label": "kmenu_kde_old",
+      "aliases": []
+    },
+    "kmenu_slackware": {
+      "source": "128x128/apps/kmenu_slackware.png",
+      "label": "kmenu_slackware",
+      "aliases": []
+    },
+    "kmenu_star": {
+      "source": "128x128/apps/kmenu_star.png",
+      "label": "kmenu_star",
+      "aliases": []
+    },
+    "kmenu_suse": {
+      "source": "128x128/apps/kmenu_suse.png",
+      "label": "kmenu_suse",
+      "aliases": []
+    },
+    "kmenu_suse2": {
+      "source": "128x128/apps/kmenu_suse2.png",
+      "label": "kmenu_suse2",
+      "aliases": []
+    },
+    "kmenu_tux": {
+      "source": "128x128/apps/kmenu_tux.png",
+      "label": "kmenu_tux",
+      "aliases": []
+    },
+    "kmenu_ubuntu": {
+      "source": "128x128/apps/kmenu_ubuntu.png",
+      "label": "kmenu_ubuntu",
+      "aliases": []
+    },
+    "kmenuedit": {
+      "source": "128x128/apps/kmenuedit.png",
+      "label": "kmenuedit",
+      "aliases": []
+    },
+    "kmid": {
+      "source": "128x128/apps/kmid.png",
+      "label": "kmid",
+      "aliases": []
+    },
+    "kmines": {
+      "source": "128x128/apps/kmines.png",
+      "label": "kmines",
+      "aliases": [
+        "org.kde.kmines"
+      ]
+    },
+    "kmix": {
+      "source": "128x128/apps/kmix.png",
+      "label": "kmix",
+      "aliases": []
+    },
+    "kmousetool": {
+      "source": "128x128/apps/kmousetool.png",
+      "label": "kmousetool",
+      "aliases": []
+    },
+    "kmouth": {
+      "source": "128x128/apps/kmouth.png",
+      "label": "kmouth",
+      "aliases": []
+    },
+    "knetattach": {
+      "source": "128x128/apps/knetattach.png",
+      "label": "knetattach",
+      "aliases": []
+    },
+    "knewsticker": {
+      "source": "128x128/apps/knewsticker.png",
+      "label": "knewsticker",
+      "aliases": []
+    },
+    "knode": {
+      "source": "128x128/apps/knode.png",
+      "label": "knode",
+      "aliases": []
+    },
+    "knode2": {
+      "source": "128x128/apps/knode2.png",
+      "label": "knode2",
+      "aliases": []
+    },
+    "knotify": {
+      "source": "128x128/apps/knotify.png",
+      "label": "knotify",
+      "aliases": []
+    },
+    "kolf": {
+      "source": "128x128/apps/kolf.png",
+      "label": "kolf",
+      "aliases": [
+        "org.kde.kolf"
+      ]
+    },
+    "kolourpaint": {
+      "source": "128x128/apps/kolourpaint.png",
+      "label": "kolourpaint",
+      "aliases": [
+        "org.kde.kolourpaint"
+      ]
+    },
+    "kompozer": {
+      "source": "128x128/apps/kompozer.png",
+      "label": "kompozer",
+      "aliases": []
+    },
+    "konqsidebar_mediaplayer": {
+      "source": "128x128/apps/konqsidebar_mediaplayer.png",
+      "label": "konqsidebar_mediaplayer",
+      "aliases": []
+    },
+    "konqsidebar_news": {
+      "source": "128x128/apps/konqsidebar_news.png",
+      "label": "konqsidebar_news",
+      "aliases": []
+    },
+    "konqueror": {
+      "source": "128x128/apps/konqueror.png",
+      "label": "konqueror",
+      "aliases": []
+    },
+    "konsole_tux": {
+      "source": "128x128/apps/konsole_tux.png",
+      "label": "konsole_tux",
+      "aliases": []
+    },
+    "konsolekalendar": {
+      "source": "128x128/apps/konsolekalendar.png",
+      "label": "konsolekalendar",
+      "aliases": []
+    },
+    "kopete": {
+      "source": "128x128/apps/kopete.png",
+      "label": "kopete",
+      "aliases": []
+    },
+    "kopete2": {
+      "source": "128x128/apps/kopete2.png",
+      "label": "kopete2",
+      "aliases": []
+    },
+    "kopete_all_away": {
+      "source": "128x128/apps/kopete_all_away.png",
+      "label": "kopete_all_away",
+      "aliases": []
+    },
+    "kopete_offline": {
+      "source": "128x128/apps/kopete_offline.png",
+      "label": "kopete_offline",
+      "aliases": []
+    },
+    "kopete_some_away": {
+      "source": "128x128/apps/kopete_some_away.png",
+      "label": "kopete_some_away",
+      "aliases": []
+    },
+    "kopete_some_online": {
+      "source": "128x128/apps/kopete_some_online.png",
+      "label": "kopete_some_online",
+      "aliases": []
+    },
+    "korganizer": {
+      "source": "128x128/apps/korganizer.png",
+      "label": "korganizer",
+      "aliases": []
+    },
+    "korganizer_2": {
+      "source": "128x128/apps/korganizer_2.png",
+      "label": "korganizer_2",
+      "aliases": []
+    },
+    "korn": {
+      "source": "128x128/apps/korn.png",
+      "label": "korn",
+      "aliases": []
+    },
+    "kpager": {
+      "source": "128x128/apps/kpager.png",
+      "label": "kpager",
+      "aliases": []
+    },
+    "kpalmdoc": {
+      "source": "128x128/apps/kpalmdoc.png",
+      "label": "kpalmdoc",
+      "aliases": []
+    },
+    "kpat": {
+      "source": "128x128/apps/kpat.png",
+      "label": "kpat",
+      "aliases": []
+    },
+    "kpdf": {
+      "source": "128x128/apps/kpdf.png",
+      "label": "kpdf",
+      "aliases": []
+    },
+    "kpersonalizer": {
+      "source": "128x128/apps/kpersonalizer.png",
+      "label": "kpersonalizer",
+      "aliases": []
+    },
+    "kpf": {
+      "source": "128x128/apps/kpf.png",
+      "label": "kpf",
+      "aliases": []
+    },
+    "kpilot": {
+      "source": "128x128/apps/kpilot.png",
+      "label": "kpilot",
+      "aliases": []
+    },
+    "kpilotDaemon": {
+      "source": "128x128/apps/kpilotDaemon.png",
+      "label": "kpilotDaemon",
+      "aliases": [
+        "kpilotdaemon"
+      ]
+    },
+    "kplato": {
+      "source": "128x128/apps/kplato.png",
+      "label": "kplato",
+      "aliases": []
+    },
+    "kpoker": {
+      "source": "128x128/apps/kpoker.png",
+      "label": "kpoker",
+      "aliases": []
+    },
+    "kppp": {
+      "source": "128x128/apps/kppp.png",
+      "label": "kppp",
+      "aliases": []
+    },
+    "kpresenter": {
+      "source": "128x128/apps/kpresenter.png",
+      "label": "kpresenter",
+      "aliases": []
+    },
+    "krdc": {
+      "source": "128x128/apps/krdc.png",
+      "label": "krdc",
+      "aliases": [
+        "org.kde.krdc"
+      ]
+    },
+    "krec": {
+      "source": "128x128/apps/krec.png",
+      "label": "krec",
+      "aliases": []
+    },
+    "kreversi": {
+      "source": "128x128/apps/kreversi.png",
+      "label": "kreversi",
+      "aliases": [
+        "org.kde.kreversi"
+      ]
+    },
+    "krita": {
+      "source": "128x128/apps/krita.png",
+      "label": "krita",
+      "aliases": [
+        "org.kde.krita"
+      ]
+    },
+    "kruler": {
+      "source": "128x128/apps/kruler.png",
+      "label": "kruler",
+      "aliases": [
+        "org.kde.kruler"
+      ]
+    },
+    "ksame": {
+      "source": "128x128/apps/ksame.png",
+      "label": "ksame",
+      "aliases": []
+    },
+    "ksayit": {
+      "source": "128x128/apps/ksayit.png",
+      "label": "ksayit",
+      "aliases": []
+    },
+    "ksayit_clipempty": {
+      "source": "128x128/apps/ksayit_clipempty.png",
+      "label": "ksayit_clipempty",
+      "aliases": []
+    },
+    "ksayit_talking": {
+      "source": "128x128/apps/ksayit_talking.png",
+      "label": "ksayit_talking",
+      "aliases": []
+    },
+    "kscd": {
+      "source": "128x128/apps/kscd.png",
+      "label": "kscd",
+      "aliases": []
+    },
+    "kscreensaver": {
+      "source": "128x128/apps/kscreensaver.png",
+      "label": "kscreensaver",
+      "aliases": []
+    },
+    "kshisen": {
+      "source": "128x128/apps/kshisen.png",
+      "label": "kshisen",
+      "aliases": [
+        "org.kde.kshisen"
+      ]
+    },
+    "ksig": {
+      "source": "128x128/apps/ksig.png",
+      "label": "ksig",
+      "aliases": []
+    },
+    "ksim": {
+      "source": "128x128/apps/ksim.png",
+      "label": "ksim",
+      "aliases": []
+    },
+    "ksirc": {
+      "source": "128x128/apps/ksirc.png",
+      "label": "ksirc",
+      "aliases": []
+    },
+    "ksirtet": {
+      "source": "128x128/apps/ksirtet.png",
+      "label": "ksirtet",
+      "aliases": []
+    },
+    "ksmiletris": {
+      "source": "128x128/apps/ksmiletris.png",
+      "label": "ksmiletris",
+      "aliases": []
+    },
+    "ksnake": {
+      "source": "128x128/apps/ksnake.png",
+      "label": "ksnake",
+      "aliases": []
+    },
+    "ksnapshot": {
+      "source": "128x128/apps/ksnapshot.png",
+      "label": "ksnapshot",
+      "aliases": []
+    },
+    "ksokoban": {
+      "source": "128x128/apps/ksokoban.png",
+      "label": "ksokoban",
+      "aliases": []
+    },
+    "kspaceduel": {
+      "source": "128x128/apps/kspaceduel.png",
+      "label": "kspaceduel",
+      "aliases": []
+    },
+    "ksplash": {
+      "source": "128x128/apps/ksplash.png",
+      "label": "ksplash",
+      "aliases": []
+    },
+    "kspread": {
+      "source": "128x128/apps/kspread.png",
+      "label": "kspread",
+      "aliases": []
+    },
+    "ksysguard": {
+      "source": "128x128/apps/ksysguard.png",
+      "label": "ksysguard",
+      "aliases": []
+    },
+    "ksystemlog": {
+      "source": "128x128/apps/ksystemlog.png",
+      "label": "ksystemlog",
+      "aliases": []
+    },
+    "ktalkd": {
+      "source": "128x128/apps/ktalkd.png",
+      "label": "ktalkd",
+      "aliases": []
+    },
+    "kterm": {
+      "source": "128x128/apps/kterm.png",
+      "label": "kterm",
+      "aliases": []
+    },
+    "kthememgr": {
+      "source": "128x128/apps/kthememgr.png",
+      "label": "kthememgr",
+      "aliases": []
+    },
+    "ktimer": {
+      "source": "128x128/apps/ktimer.png",
+      "label": "ktimer",
+      "aliases": []
+    },
+    "ktip": {
+      "source": "128x128/apps/ktip.png",
+      "label": "ktip",
+      "aliases": []
+    },
+    "ktnef": {
+      "source": "128x128/apps/ktnef.png",
+      "label": "ktnef",
+      "aliases": []
+    },
+    "ktouch": {
+      "source": "128x128/apps/ktouch.png",
+      "label": "ktouch",
+      "aliases": [
+        "org.kde.ktouch"
+      ]
+    },
+    "ktron": {
+      "source": "128x128/apps/ktron.png",
+      "label": "ktron",
+      "aliases": []
+    },
+    "kttsd": {
+      "source": "128x128/apps/kttsd.png",
+      "label": "kttsd",
+      "aliases": []
+    },
+    "kuickshow": {
+      "source": "128x128/apps/kuickshow.png",
+      "label": "kuickshow",
+      "aliases": []
+    },
+    "kuser": {
+      "source": "128x128/apps/kuser.png",
+      "label": "kuser",
+      "aliases": []
+    },
+    "kview": {
+      "source": "128x128/apps/kview.png",
+      "label": "kview",
+      "aliases": []
+    },
+    "kviewshell": {
+      "source": "128x128/apps/kviewshell.png",
+      "label": "kviewshell",
+      "aliases": []
+    },
+    "kwalletmanager": {
+      "source": "128x128/apps/kwalletmanager.png",
+      "label": "kwalletmanager",
+      "aliases": [
+        "org.kde.kwalletmanager"
+      ]
+    },
+    "kwifimanager": {
+      "source": "128x128/apps/kwifimanager.png",
+      "label": "kwifimanager",
+      "aliases": []
+    },
+    "kwin": {
+      "source": "128x128/apps/kwin.png",
+      "label": "kwin",
+      "aliases": []
+    },
+    "kwin4": {
+      "source": "128x128/apps/kwin4.png",
+      "label": "kwin4",
+      "aliases": []
+    },
+    "kword": {
+      "source": "128x128/apps/kword.png",
+      "label": "kword",
+      "aliases": []
+    },
+    "kwrite": {
+      "source": "128x128/apps/kwrite.png",
+      "label": "kwrite",
+      "aliases": [
+        "org.kde.kwrite"
+      ]
+    },
+    "kwrite2": {
+      "source": "128x128/apps/kwrite2.png",
+      "label": "kwrite2",
+      "aliases": []
+    },
+    "kxconfig": {
+      "source": "128x128/apps/kxconfig.png",
+      "label": "kxconfig",
+      "aliases": []
+    },
+    "kxkb": {
+      "source": "128x128/apps/kxkb.png",
+      "label": "kxkb",
+      "aliases": []
+    },
+    "labyrinth": {
+      "source": "128x128/apps/labyrinth.png",
+      "label": "labyrinth",
+      "aliases": []
+    },
+    "language-selector": {
+      "source": "128x128/apps/language-selector.png",
+      "label": "language-selector",
+      "aliases": []
+    },
+    "laptop-battery": {
+      "source": "128x128/apps/laptop-battery.png",
+      "label": "laptop-battery",
+      "aliases": []
+    },
+    "laptop_battery": {
+      "source": "128x128/apps/laptop_battery.png",
+      "label": "laptop_battery",
+      "aliases": []
+    },
+    "laptop_pcmcia": {
+      "source": "128x128/apps/laptop_pcmcia.png",
+      "label": "laptop_pcmcia",
+      "aliases": []
+    },
+    "lastfm": {
+      "source": "128x128/apps/lastfm.png",
+      "label": "lastfm",
+      "aliases": []
+    },
+    "launcher-program": {
+      "source": "128x128/apps/launcher-program.png",
+      "label": "launcher-program",
+      "aliases": []
+    },
+    "lbreakout2": {
+      "source": "128x128/apps/lbreakout2.png",
+      "label": "lbreakout2",
+      "aliases": []
+    },
+    "leafpad": {
+      "source": "128x128/apps/leafpad.png",
+      "label": "leafpad",
+      "aliases": []
+    },
+    "licker": {
+      "source": "128x128/apps/licker.png",
+      "label": "licker",
+      "aliases": []
+    },
+    "licq": {
+      "source": "128x128/apps/licq.png",
+      "label": "licq",
+      "aliases": []
+    },
+    "liferea": {
+      "source": "128x128/apps/liferea.png",
+      "label": "liferea",
+      "aliases": [
+        "net.sourceforge.liferea"
+      ]
+    },
+    "liferea_": {
+      "source": "128x128/apps/liferea_.png",
+      "label": "liferea_",
+      "aliases": []
+    },
+    "limewire": {
+      "source": "128x128/apps/limewire.png",
+      "label": "limewire",
+      "aliases": []
+    },
+    "linguist": {
+      "source": "128x128/apps/linguist.png",
+      "label": "linguist",
+      "aliases": []
+    },
+    "linuxconf": {
+      "source": "128x128/apps/linuxconf.png",
+      "label": "linuxconf",
+      "aliases": []
+    },
+    "lives": {
+      "source": "128x128/apps/lives.png",
+      "label": "lives",
+      "aliases": []
+    },
+    "locale": {
+      "source": "128x128/apps/locale.png",
+      "label": "locale",
+      "aliases": []
+    },
+    "login-photo": {
+      "source": "128x128/apps/login-photo.png",
+      "label": "login-photo",
+      "aliases": []
+    },
+    "logviewer": {
+      "source": "128x128/apps/logviewer.png",
+      "label": "logviewer",
+      "aliases": []
+    },
+    "looknfeel": {
+      "source": "128x128/apps/looknfeel.png",
+      "label": "looknfeel",
+      "aliases": []
+    },
+    "lpi-bug": {
+      "source": "128x128/apps/lpi-bug.png",
+      "label": "lpi-bug",
+      "aliases": []
+    },
+    "lpi-help": {
+      "source": "128x128/apps/lpi-help.png",
+      "label": "lpi-help",
+      "aliases": []
+    },
+    "lshw-gtk": {
+      "source": "128x128/apps/lshw-gtk.png",
+      "label": "lshw-gtk",
+      "aliases": []
+    },
+    "lskat": {
+      "source": "128x128/apps/lskat.png",
+      "label": "lskat",
+      "aliases": [
+        "org.kde.lskat"
+      ]
+    },
+    "mIRC": {
+      "source": "128x128/apps/mIRC.png",
+      "label": "mIRC",
+      "aliases": [
+        "mirc"
+      ]
+    },
+    "mameosx": {
+      "source": "128x128/apps/mameosx.png",
+      "label": "mameosx",
+      "aliases": []
+    },
+    "maniadrive": {
+      "source": "128x128/apps/maniadrive.png",
+      "label": "maniadrive",
+      "aliases": []
+    },
+    "mathematics": {
+      "source": "128x128/apps/mathematics.png",
+      "label": "mathematics",
+      "aliases": []
+    },
+    "mednafen": {
+      "source": "128x128/apps/mednafen.png",
+      "label": "mednafen",
+      "aliases": []
+    },
+    "menuk-mdk": {
+      "source": "128x128/apps/menuk-mdk.png",
+      "label": "menuk-mdk",
+      "aliases": []
+    },
+    "mercury": {
+      "source": "128x128/apps/mercury.png",
+      "label": "mercury",
+      "aliases": []
+    },
+    "mkrar": {
+      "source": "128x128/apps/mkrar.png",
+      "label": "mkrar",
+      "aliases": []
+    },
+    "mouse": {
+      "source": "128x128/apps/mouse.png",
+      "label": "mouse",
+      "aliases": []
+    },
+    "mozilla-sunbird": {
+      "source": "128x128/apps/mozilla-sunbird.png",
+      "label": "mozilla-sunbird",
+      "aliases": []
+    },
+    "mozilla": {
+      "source": "128x128/apps/mozilla.png",
+      "label": "mozilla",
+      "aliases": []
+    },
+    "mozilla_m": {
+      "source": "128x128/apps/mozilla_m.png",
+      "label": "mozilla_m",
+      "aliases": []
+    },
+    "mozilla_mail": {
+      "source": "128x128/apps/mozilla_mail.png",
+      "label": "mozilla_mail",
+      "aliases": []
+    },
+    "mplayer": {
+      "source": "128x128/apps/mplayer.png",
+      "label": "mplayer",
+      "aliases": []
+    },
+    "msn": {
+      "source": "128x128/apps/msn.png",
+      "label": "msn",
+      "aliases": []
+    },
+    "msn_2": {
+      "source": "128x128/apps/msn_2.png",
+      "label": "msn_2",
+      "aliases": []
+    },
+    "multidesktop": {
+      "source": "128x128/apps/multidesktop.png",
+      "label": "multidesktop",
+      "aliases": []
+    },
+    "multiget": {
+      "source": "128x128/apps/multiget.png",
+      "label": "multiget",
+      "aliases": []
+    },
+    "multimedia": {
+      "source": "128x128/apps/multimedia.png",
+      "label": "multimedia",
+      "aliases": []
+    },
+    "multisynk": {
+      "source": "128x128/apps/multisynk.png",
+      "label": "multisynk",
+      "aliases": []
+    },
+    "music-player-banshee": {
+      "source": "128x128/apps/music-player-banshee.png",
+      "label": "music-player-banshee",
+      "aliases": []
+    },
+    "music2": {
+      "source": "128x128/apps/music2.png",
+      "label": "music2",
+      "aliases": []
+    },
+    "mythtv": {
+      "source": "128x128/apps/mythtv.png",
+      "label": "mythtv",
+      "aliases": []
+    },
+    "napster": {
+      "source": "128x128/apps/napster.png",
+      "label": "napster",
+      "aliases": []
+    },
+    "nautilus-actions": {
+      "source": "128x128/apps/nautilus-actions.png",
+      "label": "nautilus-actions",
+      "aliases": []
+    },
+    "neat-control": {
+      "source": "128x128/apps/neat-control.png",
+      "label": "neat-control",
+      "aliases": [
+        "neat"
+      ]
+    },
+    "nedit": {
+      "source": "128x128/apps/nedit.png",
+      "label": "nedit",
+      "aliases": []
+    },
+    "nero": {
+      "source": "128x128/apps/nero.png",
+      "label": "nero",
+      "aliases": []
+    },
+    "nero_alternative": {
+      "source": "128x128/apps/nero_alternative.png",
+      "label": "nero_alternative",
+      "aliases": []
+    },
+    "netbeans": {
+      "source": "128x128/apps/netbeans.png",
+      "label": "netbeans",
+      "aliases": [
+        "org.apache.netbeans"
+      ]
+    },
+    "netscape": {
+      "source": "128x128/apps/netscape.png",
+      "label": "netscape",
+      "aliases": []
+    },
+    "neverball": {
+      "source": "128x128/apps/neverball.png",
+      "label": "neverball",
+      "aliases": [
+        "org.neverball.Neverball"
+      ]
+    },
+    "neverputt": {
+      "source": "128x128/apps/neverputt.png",
+      "label": "neverputt",
+      "aliases": []
+    },
+    "nicotine_clear": {
+      "source": "128x128/apps/nicotine_clear.png",
+      "label": "nicotine_clear",
+      "aliases": []
+    },
+    "nm-connection-editor": {
+      "source": "128x128/apps/nm-connection-editor.png",
+      "label": "nm-connection-editor",
+      "aliases": []
+    },
+    "notepad": {
+      "source": "128x128/apps/notepad.png",
+      "label": "notepad",
+      "aliases": []
+    },
+    "nvidia-settings": {
+      "source": "128x128/apps/nvidia-settings.png",
+      "label": "nvidia-settings",
+      "aliases": []
+    },
+    "oh-contacts": {
+      "source": "128x128/apps/oh-contacts.png",
+      "label": "oh-contacts",
+      "aliases": []
+    },
+    "onboard": {
+      "source": "128x128/apps/onboard.png",
+      "label": "onboard",
+      "aliases": []
+    },
+    "ontv": {
+      "source": "128x128/apps/ontv.png",
+      "label": "ontv",
+      "aliases": []
+    },
+    "onyx": {
+      "source": "128x128/apps/onyx.png",
+      "label": "onyx",
+      "aliases": []
+    },
+    "ooo-base": {
+      "source": "128x128/apps/ooo-base.png",
+      "label": "ooo-base",
+      "aliases": []
+    },
+    "ooo-calc": {
+      "source": "128x128/apps/ooo-calc.png",
+      "label": "ooo-calc",
+      "aliases": []
+    },
+    "ooo-draw": {
+      "source": "128x128/apps/ooo-draw.png",
+      "label": "ooo-draw",
+      "aliases": []
+    },
+    "ooo-gulls": {
+      "source": "128x128/apps/ooo-gulls.png",
+      "label": "ooo-gulls",
+      "aliases": []
+    },
+    "ooo-impress": {
+      "source": "128x128/apps/ooo-impress.png",
+      "label": "ooo-impress",
+      "aliases": []
+    },
+    "ooo-math": {
+      "source": "128x128/apps/ooo-math.png",
+      "label": "ooo-math",
+      "aliases": []
+    },
+    "ooo-template": {
+      "source": "128x128/apps/ooo-template.png",
+      "label": "ooo-template",
+      "aliases": []
+    },
+    "ooo-writer": {
+      "source": "128x128/apps/ooo-writer.png",
+      "label": "ooo-writer",
+      "aliases": []
+    },
+    "openjdk-6": {
+      "source": "128x128/apps/openjdk-6.png",
+      "label": "openjdk-6",
+      "aliases": []
+    },
+    "openoffice.office": {
+      "source": "128x128/apps/openoffice.office.png",
+      "label": "openoffice.office",
+      "aliases": []
+    },
+    "openoffice": {
+      "source": "128x128/apps/openoffice.png",
+      "label": "openoffice",
+      "aliases": []
+    },
+    "openofficeorg-21-printeradmin": {
+      "source": "128x128/apps/openofficeorg-21-printeradmin.png",
+      "label": "openofficeorg-21-printeradmin",
+      "aliases": []
+    },
+    "openofficeorg-base": {
+      "source": "128x128/apps/openofficeorg-base.png",
+      "label": "openofficeorg-base",
+      "aliases": []
+    },
+    "openofficeorg-calc": {
+      "source": "128x128/apps/openofficeorg-calc.png",
+      "label": "openofficeorg-calc",
+      "aliases": []
+    },
+    "openofficeorg-draw": {
+      "source": "128x128/apps/openofficeorg-draw.png",
+      "label": "openofficeorg-draw",
+      "aliases": []
+    },
+    "openofficeorg-impress": {
+      "source": "128x128/apps/openofficeorg-impress.png",
+      "label": "openofficeorg-impress",
+      "aliases": []
+    },
+    "openofficeorg-math": {
+      "source": "128x128/apps/openofficeorg-math.png",
+      "label": "openofficeorg-math",
+      "aliases": []
+    },
+    "openofficeorg-writer": {
+      "source": "128x128/apps/openofficeorg-writer.png",
+      "label": "openofficeorg-writer",
+      "aliases": []
+    },
+    "openofficeorg": {
+      "source": "128x128/apps/openofficeorg.png",
+      "label": "openofficeorg",
+      "aliases": []
+    },
+    "openshot": {
+      "source": "128x128/apps/openshot.png",
+      "label": "openshot",
+      "aliases": [
+        "org.openshot.OpenShot"
+      ]
+    },
+    "opera": {
+      "source": "128x128/apps/opera.png",
+      "label": "opera",
+      "aliases": [
+        "com.opera.Opera"
+      ]
+    },
+    "orca": {
+      "source": "128x128/apps/orca.png",
+      "label": "orca",
+      "aliases": [
+        "xmag"
+      ]
+    },
+    "osmose": {
+      "source": "128x128/apps/osmose.png",
+      "label": "osmose",
+      "aliases": []
+    },
+    "package": {
+      "source": "128x128/apps/package.png",
+      "label": "package",
+      "aliases": []
+    },
+    "package_administration": {
+      "source": "128x128/apps/package_administration.png",
+      "label": "package_administration",
+      "aliases": []
+    },
+    "package_application": {
+      "source": "128x128/apps/package_application.png",
+      "label": "package_application",
+      "aliases": []
+    },
+    "package_development": {
+      "source": "128x128/apps/package_development.png",
+      "label": "package_development",
+      "aliases": []
+    },
+    "package_edutainmen": {
+      "source": "128x128/apps/package_edutainmen.png",
+      "label": "package_edutainmen",
+      "aliases": []
+    },
+    "package_edutainment": {
+      "source": "128x128/apps/package_edutainment.png",
+      "label": "package_edutainment",
+      "aliases": []
+    },
+    "package_favourite": {
+      "source": "128x128/apps/package_favourite.png",
+      "label": "package_favourite",
+      "aliases": []
+    },
+    "package_games": {
+      "source": "128x128/apps/package_games.png",
+      "label": "package_games",
+      "aliases": []
+    },
+    "package_games_arcade": {
+      "source": "128x128/apps/package_games_arcade.png",
+      "label": "package_games_arcade",
+      "aliases": []
+    },
+    "package_games_board": {
+      "source": "128x128/apps/package_games_board.png",
+      "label": "package_games_board",
+      "aliases": []
+    },
+    "package_games_card": {
+      "source": "128x128/apps/package_games_card.png",
+      "label": "package_games_card",
+      "aliases": []
+    },
+    "package_games_strategy": {
+      "source": "128x128/apps/package_games_strategy.png",
+      "label": "package_games_strategy",
+      "aliases": []
+    },
+    "package_multimedia": {
+      "source": "128x128/apps/package_multimedia.png",
+      "label": "package_multimedia",
+      "aliases": []
+    },
+    "package_programs": {
+      "source": "128x128/apps/package_programs.png",
+      "label": "package_programs",
+      "aliases": []
+    },
+    "package_settings": {
+      "source": "128x128/apps/package_settings.png",
+      "label": "package_settings",
+      "aliases": []
+    },
+    "package_toys": {
+      "source": "128x128/apps/package_toys.png",
+      "label": "package_toys",
+      "aliases": []
+    },
+    "package_wordprocessor": {
+      "source": "128x128/apps/package_wordprocessor.png",
+      "label": "package_wordprocessor",
+      "aliases": []
+    },
+    "paintown": {
+      "source": "128x128/apps/paintown.png",
+      "label": "paintown",
+      "aliases": []
+    },
+    "palm-pilot-sync": {
+      "source": "128x128/apps/palm-pilot-sync.png",
+      "label": "palm-pilot-sync",
+      "aliases": []
+    },
+    "palm-pilot": {
+      "source": "128x128/apps/palm-pilot.png",
+      "label": "palm-pilot",
+      "aliases": []
+    },
+    "pan": {
+      "source": "128x128/apps/pan.png",
+      "label": "pan",
+      "aliases": []
+    },
+    "panel-searchtool": {
+      "source": "128x128/apps/panel-searchtool.png",
+      "label": "panel-searchtool",
+      "aliases": []
+    },
+    "panel_settings": {
+      "source": "128x128/apps/panel_settings.png",
+      "label": "panel_settings",
+      "aliases": []
+    },
+    "password": {
+      "source": "128x128/apps/password.png",
+      "label": "password",
+      "aliases": []
+    },
+    "pcmanfm": {
+      "source": "128x128/apps/pcmanfm.png",
+      "label": "pcmanfm",
+      "aliases": []
+    },
+    "pdf": {
+      "source": "128x128/apps/pdf.png",
+      "label": "pdf",
+      "aliases": []
+    },
+    "pdfedit": {
+      "source": "128x128/apps/pdfedit.png",
+      "label": "pdfedit",
+      "aliases": [
+        "net.sourceforge.Pdfedit"
+      ]
+    },
+    "penguin": {
+      "source": "128x128/apps/penguin.png",
+      "label": "penguin",
+      "aliases": []
+    },
+    "penguin_2": {
+      "source": "128x128/apps/penguin_2.png",
+      "label": "penguin_2",
+      "aliases": []
+    },
+    "personal": {
+      "source": "128x128/apps/personal.png",
+      "label": "personal",
+      "aliases": []
+    },
+    "photobook": {
+      "source": "128x128/apps/photobook.png",
+      "label": "photobook",
+      "aliases": []
+    },
+    "phppg": {
+      "source": "128x128/apps/phppg.png",
+      "label": "phppg",
+      "aliases": []
+    },
+    "picasa": {
+      "source": "128x128/apps/picasa.png",
+      "label": "picasa",
+      "aliases": []
+    },
+    "pidgin": {
+      "source": "128x128/apps/pidgin.png",
+      "label": "pidgin",
+      "aliases": [
+        "im.pidgin.Pidgin"
+      ]
+    },
+    "pig": {
+      "source": "128x128/apps/pig.png",
+      "label": "pig",
+      "aliases": []
+    },
+    "pinball": {
+      "source": "128x128/apps/pinball.png",
+      "label": "pinball",
+      "aliases": []
+    },
+    "pirut": {
+      "source": "128x128/apps/pirut.png",
+      "label": "pirut",
+      "aliases": []
+    },
+    "pitivi": {
+      "source": "128x128/apps/pitivi.png",
+      "label": "pitivi",
+      "aliases": [
+        "org.pitivi.Pitivi"
+      ]
+    },
+    "places": {
+      "source": "128x128/apps/places.png",
+      "label": "places",
+      "aliases": []
+    },
+    "planner": {
+      "source": "128x128/apps/planner.png",
+      "label": "planner",
+      "aliases": []
+    },
+    "pokerth": {
+      "source": "128x128/apps/pokerth.png",
+      "label": "pokerth",
+      "aliases": [
+        "net.pokerth.PokerTH"
+      ]
+    },
+    "postscript-viewer": {
+      "source": "128x128/apps/postscript-viewer.png",
+      "label": "postscript-viewer",
+      "aliases": []
+    },
+    "pppoeconfig": {
+      "source": "128x128/apps/pppoeconfig.png",
+      "label": "pppoeconfig",
+      "aliases": []
+    },
+    "preferences-desktop-default-applications": {
+      "source": "128x128/apps/preferences-desktop-default-applications.png",
+      "label": "preferences-desktop-default-applications",
+      "aliases": []
+    },
+    "preferences-desktop-display": {
+      "source": "128x128/apps/preferences-desktop-display.png",
+      "label": "preferences-desktop-display",
+      "aliases": []
+    },
+    "preferences-desktop-keyboard": {
+      "source": "128x128/apps/preferences-desktop-keyboard.png",
+      "label": "preferences-desktop-keyboard",
+      "aliases": []
+    },
+    "preferences-desktop-locale": {
+      "source": "128x128/apps/preferences-desktop-locale.png",
+      "label": "preferences-desktop-locale",
+      "aliases": []
+    },
+    "preferences-desktop-peripherals": {
+      "source": "128x128/apps/preferences-desktop-peripherals.png",
+      "label": "preferences-desktop-peripherals",
+      "aliases": []
+    },
+    "preferences-desktop-remote-desktop": {
+      "source": "128x128/apps/preferences-desktop-remote-desktop.png",
+      "label": "preferences-desktop-remote-desktop",
+      "aliases": []
+    },
+    "preferences-desktop-screensaver": {
+      "source": "128x128/apps/preferences-desktop-screensaver.png",
+      "label": "preferences-desktop-screensaver",
+      "aliases": [
+        "screensaver",
+        "xscreensaver"
+      ]
+    },
+    "preferences-desktop-theme": {
+      "source": "128x128/apps/preferences-desktop-theme.png",
+      "label": "preferences-desktop-theme",
+      "aliases": []
+    },
+    "preferences-desktop": {
+      "source": "128x128/apps/preferences-desktop.png",
+      "label": "preferences-desktop",
+      "aliases": []
+    },
+    "preferences-system-network-proxy": {
+      "source": "128x128/apps/preferences-system-network-proxy.png",
+      "label": "preferences-system-network-proxy",
+      "aliases": []
+    },
+    "preferences-system-network": {
+      "source": "128x128/apps/preferences-system-network.png",
+      "label": "preferences-system-network",
+      "aliases": []
+    },
+    "preferences-system-windows": {
+      "source": "128x128/apps/preferences-system-windows.png",
+      "label": "preferences-system-windows",
+      "aliases": []
+    },
+    "print-manager": {
+      "source": "128x128/apps/print-manager.png",
+      "label": "print-manager",
+      "aliases": []
+    },
+    "printconf-gui": {
+      "source": "128x128/apps/printconf-gui.png",
+      "label": "printconf-gui",
+      "aliases": []
+    },
+    "printer": {
+      "source": "128x128/apps/printer.png",
+      "label": "printer",
+      "aliases": []
+    },
+    "printmgr": {
+      "source": "128x128/apps/printmgr.png",
+      "label": "printmgr",
+      "aliases": []
+    },
+    "proxy": {
+      "source": "128x128/apps/proxy.png",
+      "label": "proxy",
+      "aliases": []
+    },
+    "pteidgui": {
+      "source": "128x128/apps/pteidgui.png",
+      "label": "pteidgui",
+      "aliases": []
+    },
+    "pup": {
+      "source": "128x128/apps/pup.png",
+      "label": "pup",
+      "aliases": []
+    },
+    "pybackpack": {
+      "source": "128x128/apps/pybackpack.png",
+      "label": "pybackpack",
+      "aliases": []
+    },
+    "pysol": {
+      "source": "128x128/apps/pysol.png",
+      "label": "pysol",
+      "aliases": []
+    },
+    "python": {
+      "source": "128x128/apps/python.png",
+      "label": "python",
+      "aliases": [
+        "python2.6",
+        "python2.7",
+        "python3.2"
+      ]
+    },
+    "qcad": {
+      "source": "128x128/apps/qcad.png",
+      "label": "qcad",
+      "aliases": []
+    },
+    "qt": {
+      "source": "128x128/apps/qt.png",
+      "label": "qt",
+      "aliases": []
+    },
+    "qtconfig-qt4": {
+      "source": "128x128/apps/qtconfig-qt4.png",
+      "label": "qtconfig-qt4",
+      "aliases": []
+    },
+    "quanta": {
+      "source": "128x128/apps/quanta.png",
+      "label": "quanta",
+      "aliases": []
+    },
+    "quick_restart": {
+      "source": "128x128/apps/quick_restart.png",
+      "label": "quick_restart",
+      "aliases": []
+    },
+    "quodlibet": {
+      "source": "128x128/apps/quodlibet.png",
+      "label": "quodlibet",
+      "aliases": [
+        "io.github.quodlibet.QuodLibet"
+      ]
+    },
+    "racer": {
+      "source": "128x128/apps/racer.png",
+      "label": "racer",
+      "aliases": []
+    },
+    "randr": {
+      "source": "128x128/apps/randr.png",
+      "label": "randr",
+      "aliases": []
+    },
+    "realplay": {
+      "source": "128x128/apps/realplay.png",
+      "label": "realplay",
+      "aliases": [
+        "realplayer"
+      ]
+    },
+    "redhat-extras": {
+      "source": "128x128/apps/redhat-extras.png",
+      "label": "redhat-extras",
+      "aliases": []
+    },
+    "redhat-home": {
+      "source": "128x128/apps/redhat-home.png",
+      "label": "redhat-home",
+      "aliases": []
+    },
+    "redhat-server_settings": {
+      "source": "128x128/apps/redhat-server_settings.png",
+      "label": "redhat-server_settings",
+      "aliases": []
+    },
+    "redhat-sound_video": {
+      "source": "128x128/apps/redhat-sound_video.png",
+      "label": "redhat-sound_video",
+      "aliases": []
+    },
+    "redhat-starthere": {
+      "source": "128x128/apps/redhat-starthere.png",
+      "label": "redhat-starthere",
+      "aliases": []
+    },
+    "redhat-web-browser": {
+      "source": "128x128/apps/redhat-web-browser.png",
+      "label": "redhat-web-browser",
+      "aliases": []
+    },
+    "redhat-word-processor": {
+      "source": "128x128/apps/redhat-word-processor.png",
+      "label": "redhat-word-processor",
+      "aliases": []
+    },
+    "regedit": {
+      "source": "128x128/apps/regedit.png",
+      "label": "regedit",
+      "aliases": []
+    },
+    "remote": {
+      "source": "128x128/apps/remote.png",
+      "label": "remote",
+      "aliases": []
+    },
+    "restricted-manager": {
+      "source": "128x128/apps/restricted-manager.png",
+      "label": "restricted-manager",
+      "aliases": []
+    },
+    "revelation": {
+      "source": "128x128/apps/revelation.png",
+      "label": "revelation",
+      "aliases": [
+        "info.olasagasti.revelation"
+      ]
+    },
+    "rhythmbox-notplaying": {
+      "source": "128x128/apps/rhythmbox-notplaying.png",
+      "label": "rhythmbox-notplaying",
+      "aliases": []
+    },
+    "ri-li": {
+      "source": "128x128/apps/ri-li.png",
+      "label": "ri-li",
+      "aliases": [
+        "net.sourceforge.Ri-li"
+      ]
+    },
+    "runprocesscatcher": {
+      "source": "128x128/apps/runprocesscatcher.png",
+      "label": "runprocesscatcher",
+      "aliases": []
+    },
+    "samba": {
+      "source": "128x128/apps/samba.png",
+      "label": "samba",
+      "aliases": []
+    },
+    "scim-setup": {
+      "source": "128x128/apps/scim-setup.png",
+      "label": "scim-setup",
+      "aliases": []
+    },
+    "screenlets-manager": {
+      "source": "128x128/apps/screenlets-manager.png",
+      "label": "screenlets-manager",
+      "aliases": [
+        "screenlets"
+      ]
+    },
+    "scribus": {
+      "source": "128x128/apps/scribus.png",
+      "label": "scribus",
+      "aliases": [
+        "net.scribus.Scribus"
+      ]
+    },
+    "sdlmame": {
+      "source": "128x128/apps/sdlmame.png",
+      "label": "sdlmame",
+      "aliases": []
+    },
+    "seahorse-applet": {
+      "source": "128x128/apps/seahorse-applet.png",
+      "label": "seahorse-applet",
+      "aliases": [
+        "seahorse-preferences"
+      ]
+    },
+    "seamonkey": {
+      "source": "128x128/apps/seamonkey.png",
+      "label": "seamonkey",
+      "aliases": []
+    },
+    "secondlife": {
+      "source": "128x128/apps/secondlife.png",
+      "label": "secondlife",
+      "aliases": []
+    },
+    "serviceconf": {
+      "source": "128x128/apps/serviceconf.png",
+      "label": "serviceconf",
+      "aliases": []
+    },
+    "session-properties": {
+      "source": "128x128/apps/session-properties.png",
+      "label": "session-properties",
+      "aliases": []
+    },
+    "shares": {
+      "source": "128x128/apps/shares.png",
+      "label": "shares",
+      "aliases": []
+    },
+    "skype": {
+      "source": "128x128/apps/skype.png",
+      "label": "skype",
+      "aliases": []
+    },
+    "smplayer": {
+      "source": "128x128/apps/smplayer.png",
+      "label": "smplayer",
+      "aliases": [
+        "info.smplayer.SMPlayer"
+      ]
+    },
+    "software-properties": {
+      "source": "128x128/apps/software-properties.png",
+      "label": "software-properties",
+      "aliases": []
+    },
+    "songbird": {
+      "source": "128x128/apps/songbird.png",
+      "label": "songbird",
+      "aliases": []
+    },
+    "songbirdicon": {
+      "source": "128x128/apps/songbirdicon.png",
+      "label": "songbirdicon",
+      "aliases": []
+    },
+    "soundKonverter": {
+      "source": "128x128/apps/soundKonverter.png",
+      "label": "soundKonverter",
+      "aliases": [
+        "soundkonverter"
+      ]
+    },
+    "soundconverter": {
+      "source": "128x128/apps/soundconverter.png",
+      "label": "soundconverter",
+      "aliases": [
+        "org.soundconverter.SoundConverter"
+      ]
+    },
+    "spe": {
+      "source": "128x128/apps/spe.png",
+      "label": "spe",
+      "aliases": []
+    },
+    "specto": {
+      "source": "128x128/apps/specto.png",
+      "label": "specto",
+      "aliases": []
+    },
+    "staroffice": {
+      "source": "128x128/apps/staroffice.png",
+      "label": "staroffice",
+      "aliases": []
+    },
+    "startupmanager": {
+      "source": "128x128/apps/startupmanager.png",
+      "label": "startupmanager",
+      "aliases": []
+    },
+    "stock_proxy": {
+      "source": "128x128/apps/stock_proxy.png",
+      "label": "stock_proxy",
+      "aliases": []
+    },
+    "streamtuner": {
+      "source": "128x128/apps/streamtuner.png",
+      "label": "streamtuner",
+      "aliases": []
+    },
+    "style": {
+      "source": "128x128/apps/style.png",
+      "label": "style",
+      "aliases": []
+    },
+    "stylesheet": {
+      "source": "128x128/apps/stylesheet.png",
+      "label": "stylesheet",
+      "aliases": []
+    },
+    "sun-java": {
+      "source": "128x128/apps/sun-java.png",
+      "label": "sun-java",
+      "aliases": [
+        "sun-java6",
+        "sun-javaws"
+      ]
+    },
+    "sunbird": {
+      "source": "128x128/apps/sunbird.png",
+      "label": "sunbird",
+      "aliases": []
+    },
+    "superkaramba": {
+      "source": "128x128/apps/superkaramba.png",
+      "label": "superkaramba",
+      "aliases": []
+    },
+    "supertux": {
+      "source": "128x128/apps/supertux.png",
+      "label": "supertux",
+      "aliases": [
+        "org.supertuxproject.SuperTux"
+      ]
+    },
+    "sweethome": {
+      "source": "128x128/apps/sweethome.png",
+      "label": "sweethome",
+      "aliases": [
+        "com.sweethome3d.Sweethome3d",
+        "sweethome3d"
+      ]
+    },
+    "swfdec-gnome": {
+      "source": "128x128/apps/swfdec-gnome.png",
+      "label": "swfdec-gnome",
+      "aliases": [
+        "swfdec",
+        "swfdec-player"
+      ]
+    },
+    "synaptic": {
+      "source": "128x128/apps/synaptic.png",
+      "label": "synaptic",
+      "aliases": []
+    },
+    "synfig_icon": {
+      "source": "128x128/apps/synfig_icon.png",
+      "label": "synfig_icon",
+      "aliases": []
+    },
+    "system-config-authentication": {
+      "source": "128x128/apps/system-config-authentication.png",
+      "label": "system-config-authentication",
+      "aliases": []
+    },
+    "system-config-bind": {
+      "source": "128x128/apps/system-config-bind.png",
+      "label": "system-config-bind",
+      "aliases": []
+    },
+    "system-config-date": {
+      "source": "128x128/apps/system-config-date.png",
+      "label": "system-config-date",
+      "aliases": []
+    },
+    "system-config-display": {
+      "source": "128x128/apps/system-config-display.png",
+      "label": "system-config-display",
+      "aliases": []
+    },
+    "system-config-keyboard": {
+      "source": "128x128/apps/system-config-keyboard.png",
+      "label": "system-config-keyboard",
+      "aliases": []
+    },
+    "system-config-kickstart": {
+      "source": "128x128/apps/system-config-kickstart.png",
+      "label": "system-config-kickstart",
+      "aliases": []
+    },
+    "system-config-lvm": {
+      "source": "128x128/apps/system-config-lvm.png",
+      "label": "system-config-lvm",
+      "aliases": []
+    },
+    "system-config-network": {
+      "source": "128x128/apps/system-config-network.png",
+      "label": "system-config-network",
+      "aliases": []
+    },
+    "system-config-nfs": {
+      "source": "128x128/apps/system-config-nfs.png",
+      "label": "system-config-nfs",
+      "aliases": []
+    },
+    "system-config-root": {
+      "source": "128x128/apps/system-config-root.png",
+      "label": "system-config-root",
+      "aliases": []
+    },
+    "system-config-rootpassword": {
+      "source": "128x128/apps/system-config-rootpassword.png",
+      "label": "system-config-rootpassword",
+      "aliases": []
+    },
+    "system-config-samba": {
+      "source": "128x128/apps/system-config-samba.png",
+      "label": "system-config-samba",
+      "aliases": []
+    },
+    "system-config-sound": {
+      "source": "128x128/apps/system-config-sound.png",
+      "label": "system-config-sound",
+      "aliases": []
+    },
+    "system-config-soundcard": {
+      "source": "128x128/apps/system-config-soundcard.png",
+      "label": "system-config-soundcard",
+      "aliases": []
+    },
+    "system-config-users": {
+      "source": "128x128/apps/system-config-users.png",
+      "label": "system-config-users",
+      "aliases": []
+    },
+    "system-control-network": {
+      "source": "128x128/apps/system-control-network.png",
+      "label": "system-control-network",
+      "aliases": []
+    },
+    "system-floppy": {
+      "source": "128x128/apps/system-floppy.png",
+      "label": "system-floppy",
+      "aliases": []
+    },
+    "system-monitor": {
+      "source": "128x128/apps/system-monitor.png",
+      "label": "system-monitor",
+      "aliases": []
+    },
+    "system-restart": {
+      "source": "128x128/apps/system-restart.png",
+      "label": "system-restart",
+      "aliases": []
+    },
+    "system-software-update": {
+      "source": "128x128/apps/system-software-update.png",
+      "label": "system-software-update",
+      "aliases": []
+    },
+    "system-upgrade_": {
+      "source": "128x128/apps/system-upgrade_.png",
+      "label": "system-upgrade_",
+      "aliases": []
+    },
+    "systempreferences": {
+      "source": "128x128/apps/systempreferences.png",
+      "label": "systempreferences",
+      "aliases": []
+    },
+    "systemtray": {
+      "source": "128x128/apps/systemtray.png",
+      "label": "systemtray",
+      "aliases": []
+    },
+    "teeworlds": {
+      "source": "128x128/apps/teeworlds.png",
+      "label": "teeworlds",
+      "aliases": [
+        "com.teeworlds.Teeworlds"
+      ]
+    },
+    "terminator": {
+      "source": "128x128/apps/terminator.png",
+      "label": "terminator",
+      "aliases": []
+    },
+    "texmaker": {
+      "source": "128x128/apps/texmaker.png",
+      "label": "texmaker",
+      "aliases": [
+        "net.xm1math.Texmaker"
+      ]
+    },
+    "tgauge": {
+      "source": "128x128/apps/tgauge.png",
+      "label": "tgauge",
+      "aliases": []
+    },
+    "thunderbird_2": {
+      "source": "128x128/apps/thunderbird_2.png",
+      "label": "thunderbird_2",
+      "aliases": []
+    },
+    "time-admin": {
+      "source": "128x128/apps/time-admin.png",
+      "label": "time-admin",
+      "aliases": []
+    },
+    "tomboy": {
+      "source": "128x128/apps/tomboy.png",
+      "label": "tomboy",
+      "aliases": []
+    },
+    "tor-icon": {
+      "source": "128x128/apps/tor-icon.png",
+      "label": "tor-icon",
+      "aliases": []
+    },
+    "tracker": {
+      "source": "128x128/apps/tracker.png",
+      "label": "tracker",
+      "aliases": []
+    },
+    "transmission": {
+      "source": "128x128/apps/transmission.png",
+      "label": "transmission",
+      "aliases": [
+        "com.transmissionbt.Transmission"
+      ]
+    },
+    "tsclient-applet": {
+      "source": "128x128/apps/tsclient-applet.png",
+      "label": "tsclient-applet",
+      "aliases": []
+    },
+    "tucan": {
+      "source": "128x128/apps/tucan.png",
+      "label": "tucan",
+      "aliases": []
+    },
+    "tucan_bak": {
+      "source": "128x128/apps/tucan_bak.png",
+      "label": "tucan_bak",
+      "aliases": []
+    },
+    "ubuntuone-client": {
+      "source": "128x128/apps/ubuntuone-client.png",
+      "label": "ubuntuone-client",
+      "aliases": []
+    },
+    "ultrastardx": {
+      "source": "128x128/apps/ultrastardx.png",
+      "label": "ultrastardx",
+      "aliases": []
+    },
+    "unetbootin": {
+      "source": "128x128/apps/unetbootin.png",
+      "label": "unetbootin",
+      "aliases": []
+    },
+    "uninstaller": {
+      "source": "128x128/apps/uninstaller.png",
+      "label": "uninstaller",
+      "aliases": []
+    },
+    "up2date": {
+      "source": "128x128/apps/up2date.png",
+      "label": "up2date",
+      "aliases": []
+    },
+    "usb-creator-gtk": {
+      "source": "128x128/apps/usb-creator-gtk.png",
+      "label": "usb-creator-gtk",
+      "aliases": [
+        "usb-creator"
+      ]
+    },
+    "usb": {
+      "source": "128x128/apps/usb.png",
+      "label": "usb",
+      "aliases": []
+    },
+    "user-info": {
+      "source": "128x128/apps/user-info.png",
+      "label": "user-info",
+      "aliases": []
+    },
+    "userinfo": {
+      "source": "128x128/apps/userinfo.png",
+      "label": "userinfo",
+      "aliases": []
+    },
+    "usermount": {
+      "source": "128x128/apps/usermount.png",
+      "label": "usermount",
+      "aliases": []
+    },
+    "users": {
+      "source": "128x128/apps/users.png",
+      "label": "users",
+      "aliases": []
+    },
+    "utorrent": {
+      "source": "128x128/apps/utorrent.png",
+      "label": "utorrent",
+      "aliases": []
+    },
+    "vegastrike": {
+      "source": "128x128/apps/vegastrike.png",
+      "label": "vegastrike",
+      "aliases": []
+    },
+    "viruskiller": {
+      "source": "128x128/apps/viruskiller.png",
+      "label": "viruskiller",
+      "aliases": []
+    },
+    "visor": {
+      "source": "128x128/apps/visor.png",
+      "label": "visor",
+      "aliases": []
+    },
+    "vmplayer": {
+      "source": "128x128/apps/vmplayer.png",
+      "label": "vmplayer",
+      "aliases": []
+    },
+    "vmware": {
+      "source": "128x128/apps/vmware.png",
+      "label": "vmware",
+      "aliases": []
+    },
+    "vnc": {
+      "source": "128x128/apps/vnc.png",
+      "label": "vnc",
+      "aliases": []
+    },
+    "warsow": {
+      "source": "128x128/apps/warsow.png",
+      "label": "warsow",
+      "aliases": [
+        "net.warsow.Warsow"
+      ]
+    },
+    "wengophone": {
+      "source": "128x128/apps/wengophone.png",
+      "label": "wengophone",
+      "aliases": []
+    },
+    "widelands": {
+      "source": "128x128/apps/widelands.png",
+      "label": "widelands",
+      "aliases": [
+        "org.widelands.Widelands"
+      ]
+    },
+    "wifi": {
+      "source": "128x128/apps/wifi.png",
+      "label": "wifi",
+      "aliases": []
+    },
+    "wilber-icon": {
+      "source": "128x128/apps/wilber-icon.png",
+      "label": "wilber-icon",
+      "aliases": []
+    },
+    "wilber-icon2_0": {
+      "source": "128x128/apps/wilber-icon2_0.png",
+      "label": "wilber-icon2_0",
+      "aliases": []
+    },
+    "window_list": {
+      "source": "128x128/apps/window_list.png",
+      "label": "window_list",
+      "aliases": []
+    },
+    "wine-notepad": {
+      "source": "128x128/apps/wine-notepad.png",
+      "label": "wine-notepad",
+      "aliases": []
+    },
+    "wine-uninstaller": {
+      "source": "128x128/apps/wine-uninstaller.png",
+      "label": "wine-uninstaller",
+      "aliases": []
+    },
+    "wine-winecfg": {
+      "source": "128x128/apps/wine-winecfg.png",
+      "label": "wine-winecfg",
+      "aliases": []
+    },
+    "wine-winefile": {
+      "source": "128x128/apps/wine-winefile.png",
+      "label": "wine-winefile",
+      "aliases": []
+    },
+    "wine_glass": {
+      "source": "128x128/apps/wine_glass.png",
+      "label": "wine_glass",
+      "aliases": [
+        "io.github.aggalex.Wineglass"
+      ]
+    },
+    "winecfg": {
+      "source": "128x128/apps/winecfg.png",
+      "label": "winecfg",
+      "aliases": []
+    },
+    "winefile": {
+      "source": "128x128/apps/winefile.png",
+      "label": "winefile",
+      "aliases": []
+    },
+    "winhelp": {
+      "source": "128x128/apps/winhelp.png",
+      "label": "winhelp",
+      "aliases": []
+    },
+    "wireshark": {
+      "source": "128x128/apps/wireshark.png",
+      "label": "wireshark",
+      "aliases": [
+        "org.wireshark.Wireshark"
+      ]
+    },
+    "workrave": {
+      "source": "128x128/apps/workrave.png",
+      "label": "workrave",
+      "aliases": []
+    },
+    "workspace": {
+      "source": "128x128/apps/workspace.png",
+      "label": "workspace",
+      "aliases": []
+    },
+    "wp": {
+      "source": "128x128/apps/wp.png",
+      "label": "wp",
+      "aliases": []
+    },
+    "wxglade": {
+      "source": "128x128/apps/wxglade.png",
+      "label": "wxglade",
+      "aliases": []
+    },
+    "x": {
+      "source": "128x128/apps/x.png",
+      "label": "x",
+      "aliases": []
+    },
+    "xapp": {
+      "source": "128x128/apps/xapp.png",
+      "label": "xapp",
+      "aliases": []
+    },
+    "xawtv": {
+      "source": "128x128/apps/xawtv.png",
+      "label": "xawtv",
+      "aliases": []
+    },
+    "xcalc": {
+      "source": "128x128/apps/xcalc.png",
+      "label": "xcalc",
+      "aliases": []
+    },
+    "xchat-gnome": {
+      "source": "128x128/apps/xchat-gnome.png",
+      "label": "xchat-gnome",
+      "aliases": [
+        "xchat"
+      ]
+    },
+    "xchat_": {
+      "source": "128x128/apps/xchat_.png",
+      "label": "xchat_",
+      "aliases": []
+    },
+    "xclipboard": {
+      "source": "128x128/apps/xclipboard.png",
+      "label": "xclipboard",
+      "aliases": []
+    },
+    "xclock": {
+      "source": "128x128/apps/xclock.png",
+      "label": "xclock",
+      "aliases": []
+    },
+    "xconsole": {
+      "source": "128x128/apps/xconsole.png",
+      "label": "xconsole",
+      "aliases": []
+    },
+    "xedit": {
+      "source": "128x128/apps/xedit.png",
+      "label": "xedit",
+      "aliases": []
+    },
+    "xeyes": {
+      "source": "128x128/apps/xeyes.png",
+      "label": "xeyes",
+      "aliases": []
+    },
+    "xfcalendar": {
+      "source": "128x128/apps/xfcalendar.png",
+      "label": "xfcalendar",
+      "aliases": []
+    },
+    "xfce-fsguard-plugin": {
+      "source": "128x128/apps/xfce-fsguard-plugin.png",
+      "label": "xfce-fsguard-plugin",
+      "aliases": []
+    },
+    "xfce-mail": {
+      "source": "128x128/apps/xfce-mail.png",
+      "label": "xfce-mail",
+      "aliases": []
+    },
+    "xfce-mount": {
+      "source": "128x128/apps/xfce-mount.png",
+      "label": "xfce-mount",
+      "aliases": []
+    },
+    "xfce-terminal": {
+      "source": "128x128/apps/xfce-terminal.png",
+      "label": "xfce-terminal",
+      "aliases": []
+    },
+    "xfce4-appfinder": {
+      "source": "128x128/apps/xfce4-appfinder.png",
+      "label": "xfce4-appfinder",
+      "aliases": []
+    },
+    "xfce4-backdrop": {
+      "source": "128x128/apps/xfce4-backdrop.png",
+      "label": "xfce4-backdrop",
+      "aliases": []
+    },
+    "xfce4-fsguard-plugin-urgent": {
+      "source": "128x128/apps/xfce4-fsguard-plugin-urgent.png",
+      "label": "xfce4-fsguard-plugin-urgent",
+      "aliases": []
+    },
+    "xfce4-fsguard-plugin-warning": {
+      "source": "128x128/apps/xfce4-fsguard-plugin-warning.png",
+      "label": "xfce4-fsguard-plugin-warning",
+      "aliases": []
+    },
+    "xfce4-iconbox": {
+      "source": "128x128/apps/xfce4-iconbox.png",
+      "label": "xfce4-iconbox",
+      "aliases": []
+    },
+    "xfce4-menueditor": {
+      "source": "128x128/apps/xfce4-menueditor.png",
+      "label": "xfce4-menueditor",
+      "aliases": []
+    },
+    "xfce4-mixer": {
+      "source": "128x128/apps/xfce4-mixer.png",
+      "label": "xfce4-mixer",
+      "aliases": []
+    },
+    "xfce4-panel": {
+      "source": "128x128/apps/xfce4-panel.png",
+      "label": "xfce4-panel",
+      "aliases": []
+    },
+    "xfce4-session": {
+      "source": "128x128/apps/xfce4-session.png",
+      "label": "xfce4-session",
+      "aliases": []
+    },
+    "xfce4-settings": {
+      "source": "128x128/apps/xfce4-settings.png",
+      "label": "xfce4-settings",
+      "aliases": []
+    },
+    "xfce4-splash": {
+      "source": "128x128/apps/xfce4-splash.png",
+      "label": "xfce4-splash",
+      "aliases": []
+    },
+    "xfce4-taskbar": {
+      "source": "128x128/apps/xfce4-taskbar.png",
+      "label": "xfce4-taskbar",
+      "aliases": []
+    },
+    "xfce4-ui": {
+      "source": "128x128/apps/xfce4-ui.png",
+      "label": "xfce4-ui",
+      "aliases": []
+    },
+    "xfce4-workspaces": {
+      "source": "128x128/apps/xfce4-workspaces.png",
+      "label": "xfce4-workspaces",
+      "aliases": []
+    },
+    "xfmail": {
+      "source": "128x128/apps/xfmail.png",
+      "label": "xfmail",
+      "aliases": []
+    },
+    "xfsm-hibernate": {
+      "source": "128x128/apps/xfsm-hibernate.png",
+      "label": "xfsm-hibernate",
+      "aliases": []
+    },
+    "xfsm-lockscreen": {
+      "source": "128x128/apps/xfsm-lockscreen.png",
+      "label": "xfsm-lockscreen",
+      "aliases": []
+    },
+    "xfsm-reboot": {
+      "source": "128x128/apps/xfsm-reboot.png",
+      "label": "xfsm-reboot",
+      "aliases": []
+    },
+    "xfsm-shutdown": {
+      "source": "128x128/apps/xfsm-shutdown.png",
+      "label": "xfsm-shutdown",
+      "aliases": []
+    },
+    "xfsm-suspend": {
+      "source": "128x128/apps/xfsm-suspend.png",
+      "label": "xfsm-suspend",
+      "aliases": []
+    },
+    "xfsm-switch": {
+      "source": "128x128/apps/xfsm-switch.png",
+      "label": "xfsm-switch",
+      "aliases": []
+    },
+    "xfwm4": {
+      "source": "128x128/apps/xfwm4.png",
+      "label": "xfwm4",
+      "aliases": []
+    },
+    "xgngeo": {
+      "source": "128x128/apps/xgngeo.png",
+      "label": "xgngeo",
+      "aliases": []
+    },
+    "xine2": {
+      "source": "128x128/apps/xine2.png",
+      "label": "xine2",
+      "aliases": []
+    },
+    "xkill": {
+      "source": "128x128/apps/xkill.png",
+      "label": "xkill",
+      "aliases": []
+    },
+    "xmame": {
+      "source": "128x128/apps/xmame.png",
+      "label": "xmame",
+      "aliases": []
+    },
+    "xmoto": {
+      "source": "128x128/apps/xmoto.png",
+      "label": "xmoto",
+      "aliases": [
+        "org.tuxfamily.XMoto"
+      ]
+    },
+    "xpaint": {
+      "source": "128x128/apps/xpaint.png",
+      "label": "xpaint",
+      "aliases": []
+    },
+    "xvidcap": {
+      "source": "128x128/apps/xvidcap.png",
+      "label": "xvidcap",
+      "aliases": []
+    },
+    "yofrankie": {
+      "source": "128x128/apps/yofrankie.png",
+      "label": "yofrankie",
+      "aliases": []
+    },
+    "yumex": {
+      "source": "128x128/apps/yumex.png",
+      "label": "yumex",
+      "aliases": []
+    },
+    "zim": {
+      "source": "128x128/apps/zim.png",
+      "label": "zim",
+      "aliases": [
+        "org.zim_wiki.Zim"
+      ]
+    },
+    "zsnes": {
+      "source": "128x128/apps/zsnes.png",
+      "label": "zsnes",
+      "aliases": [
+        "io.github.xyproto.zsnes"
+      ]
+    },
+    "ark": {
+      "source": "128x128/apps/ark.png",
+      "label": "ark",
+      "aliases": [
+        "org.kde.ark"
+      ]
+    },
+    "file-manager": {
+      "source": "128x128/apps/file-manager.png",
+      "label": "file-manager",
+      "aliases": []
+    },
+    "gparted": {
+      "source": "128x128/apps/gparted.png",
+      "label": "gparted",
+      "aliases": []
+    },
+    "gtkdiskfree": {
+      "source": "128x128/apps/gtkdiskfree.png",
+      "label": "gtkdiskfree",
+      "aliases": []
+    },
+    "kcalc": {
+      "source": "128x128/apps/kcalc.png",
+      "label": "kcalc",
+      "aliases": [
+        "org.kde.kcalc"
+      ]
+    },
+    "totem": {
+      "source": "128x128/apps/totem.png",
+      "label": "totem",
+      "aliases": [
+        "org.gnome.Totem"
+      ]
+    },
+    "update-manager": {
+      "source": "128x128/apps/update-manager.png",
+      "label": "update-manager",
+      "aliases": [
+        "org.gnome.SoftwareUpdate"
+      ]
+    },
+    "vinagre": {
+      "source": "128x128/apps/vinagre.png",
+      "label": "vinagre",
+      "aliases": [
+        "org.gnome.Vinagre"
+      ]
+    },
+    "xterm": {
+      "source": "128x128/apps/xterm.png",
+      "label": "xterm",
+      "aliases": [
+        "uxterm",
+        "xterm-color_48x48"
+      ]
+    }
+  },
+  "devices": {
+    "drive-harddisk": {
+      "source": "128x128/devices/drive-harddisk.png",
+      "label": "Hard disk",
+      "aliases": [
+        "drive-harddisk-ata",
+        "drive-harddisk-sata",
+        "drive-harddisk-scsi",
+        "drive-harddisk-ide",
+        "drive-harddisk-system",
+        "drive-harddisk-solidstate",
+        "drive-harddisk-ssd",
+        "gnome-dev-harddisk"
+      ]
+    },
+    "drive-removable-media": {
+      "source": "128x128/devices/drive-removable-media.png",
+      "label": "External drive",
+      "aliases": [
+        "drive-removable",
+        "drive-removable-usb",
+        "drive-usb",
+        "gnome-dev-removable-usb"
+      ]
+    },
+    "drive-optical": {
+      "source": "128x128/devices/drive-optical.png",
+      "label": "Optical drive",
+      "aliases": [
+        "drive-cdrom",
+        "drive-dvd",
+        "drive-optical-dvd",
+        "gnome-dev-cdrom"
+      ]
+    },
+    "media-optical": {
+      "source": "128x128/devices/media-optical.png",
+      "label": "Disc",
+      "aliases": [
+        "media-optical-cd",
+        "media-optical-dvd",
+        "media-optical-bd",
+        "media-cdrom"
+      ]
+    },
+    "drive-harddisk-usb": {
+      "source": "128x128/devices/drive-harddisk-usb.png",
+      "label": "USB drive",
+      "aliases": [
+        "drive-removable-media-usb",
+        "gnome-dev-harddisk-usb"
+      ]
+    }
+  },
+  "mimetypes": {
+    "application-pdf": {
+      "source": "128x128/mimetypes/application-pdf.png",
+      "label": "PDF",
+      "aliases": [
+        "application-x-pdf"
+      ]
+    },
+    "text-x-generic": {
+      "source": "128x128/mimetypes/text-x-generic.png",
+      "label": "Text document",
+      "aliases": [
+        "text-plain",
+        "text-x-log",
+        "text-x-readme",
+        "text-x-markdown",
+        "text-markdown"
+      ]
+    },
+    "text-x-script": {
+      "source": "128x128/mimetypes/text-x-script.png",
+      "label": "Script / source code",
+      "aliases": [
+        "text-x-python",
+        "text-x-sh",
+        "application-x-shellscript",
+        "text-x-csrc",
+        "text-x-chdr",
+        "text-x-c++src",
+        "text-x-c++hdr",
+        "text-javascript",
+        "application-javascript",
+        "application-json",
+        "text-css",
+        "text-xml",
+        "application-xml",
+        "text-html"
+      ]
+    },
+    "image-x-generic": {
+      "source": "128x128/mimetypes/image-x-generic.png",
+      "label": "Image file",
+      "aliases": [
+        "image-png",
+        "image-jpeg",
+        "image-gif",
+        "image-webp",
+        "image-tiff",
+        "image-svg+xml",
+        "image-x-xcf"
+      ]
+    },
+    "audio-x-generic": {
+      "source": "128x128/mimetypes/audio-x-generic.png",
+      "label": "Audio file",
+      "aliases": [
+        "audio-mpeg",
+        "audio-flac",
+        "audio-ogg",
+        "audio-x-wav",
+        "audio-x-vorbis+ogg"
+      ]
+    },
+    "video-x-generic": {
+      "source": "128x128/mimetypes/video-x-generic.png",
+      "label": "Video file",
+      "aliases": [
+        "video-mp4",
+        "video-webm",
+        "video-x-matroska",
+        "video-quicktime",
+        "video-mpeg",
+        "video-x-msvideo"
+      ]
+    },
+    "application-x-archive": {
+      "source": "128x128/mimetypes/application-x-archive.png",
+      "label": "Archive",
+      "aliases": [
+        "application-x-compressed-tar",
+        "application-x-tar",
+        "application-gzip",
+        "application-x-7z-compressed",
+        "application-x-rar",
+        "application-vnd.rar"
+      ]
+    },
+    "application-zip": {
+      "source": "128x128/mimetypes/application-zip.png",
+      "label": "ZIP archive",
+      "aliases": [
+        "application-x-zip-compressed"
+      ]
+    },
+    "x-office-document": {
+      "source": "128x128/mimetypes/x-office-document.png",
+      "label": "Pages / document",
+      "aliases": [
+        "application-msword",
+        "application-vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application-vnd.oasis.opendocument.text",
+        "text-richtext",
+        "application-rtf"
+      ]
+    },
+    "x-office-spreadsheet": {
+      "source": "128x128/mimetypes/x-office-spreadsheet.png",
+      "label": "Numbers / spreadsheet",
+      "aliases": [
+        "application-vnd.ms-excel",
+        "application-vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application-vnd.oasis.opendocument.spreadsheet",
+        "text-csv"
+      ]
+    },
+    "x-office-presentation": {
+      "source": "128x128/mimetypes/x-office-presentation.png",
+      "label": "Keynote / presentation",
+      "aliases": [
+        "application-vnd.ms-powerpoint",
+        "application-vnd.openxmlformats-officedocument.presentationml.presentation",
+        "application-vnd.oasis.opendocument.presentation"
+      ]
+    },
+    "x-office-drawing": {
+      "source": "128x128/mimetypes/x-office-drawing.png",
+      "label": "Drawing",
+      "aliases": [
+        "application-vnd.oasis.opendocument.graphics"
+      ]
+    },
+    "font-x-generic": {
+      "source": "128x128/mimetypes/font-x-generic.png",
+      "label": "Font",
+      "aliases": [
+        "font-ttf",
+        "font-otf",
+        "application-x-font-ttf",
+        "application-x-font-otf"
+      ]
+    },
+    "application-x-executable": {
+      "source": "128x128/mimetypes/application-x-executable.png",
+      "label": "Application",
+      "aliases": [
+        "application-x-sharedlib",
+        "application-x-ms-dos-executable"
+      ]
+    },
+    "application-x-cd-image": {
+      "source": "128x128/mimetypes/application-x-cd-image.png",
+      "label": "Disc image",
+      "aliases": [
+        "application-x-iso",
+        "application-x-raw-disk-image"
+      ]
+    },
+    "application-x-desktop": {
+      "source": "128x128/mimetypes/application-x-desktop.png",
+      "label": "Desktop launcher",
+      "aliases": []
+    },
+    "application-octet-stream": {
+      "source": "128x128/mimetypes/application-octet-stream.png",
+      "label": "Binary file",
+      "aliases": []
+    },
+    "package-x-generic": {
+      "source": "128x128/mimetypes/package-x-generic.png",
+      "label": "Software package",
+      "aliases": [
+        "application-x-rpm",
+        "application-x-deb",
+        "application-vnd.debian.binary-package",
+        "application-x-alpm-package"
+      ]
+    }
+  }
+}

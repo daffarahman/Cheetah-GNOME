@@ -1,0 +1,8 @@
+{
+  "source": "artwork/128x128/apps/panel-searchtool.png",
+  "repository": "https://github.com/B00merang-Artwork/Mac-OS-X-Cheetah",
+  "commit": "2d4ae3f64f80701e3bef23f6211c9a3bd8ad41c8",
+  "sha256": "d019bb6e8ad0cc584eda6e5fa2e8fc504b5bda18607d08d78baa7f2c90330963",
+  "icon_name": "view-app-grid-user-symbolic",
+  "label": "Search / All Apps"
+}
